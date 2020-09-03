@@ -39,4 +39,11 @@ For using the library you have two options. Option one is for developer who want
 
 ## Usage of the project and its domain specific language
 
-After creating a project
+After successfully creating a project, like described above, you can use the domain specific language. The domain specific language consists of keywords and brackets like "{" and "}". The editor in which you are using the domain specific language supports auto completion (by pressing Ctrl + Spacebar) and gives you feedback when something is missing or a wrong input has been done.
+
+1. With the keyword "App" you create the main element of the application. This element needs a name defined like this "\<name\>". For the "App" element and every other element you need to open "{" and close "}" these brackets.
+2. Inside the "App" element you need to declare the package name of the application by using the "packageName" attribute and defining its value like this "\<packageName\>".
+3. Also inside the "App" element you need to create an "Sensor" element. The "Sensor" element needs a name defined like this "\<name\>" and you need to open and close the typical element brackets "{" "}".
+4. Inside of the "Sensor" element you need to create at least one (you can create as much as you want) "Service" element. An "Service" element needs a name defined like this "\<name\>" and you need to open and close the typical element brackets. 
+5. An "Service" element has an attribute called "uuid" which is defined like this "\<uuid\>".
+6. Also there needs to be at least one "Characteristic" element created inside the "Service" element. 
