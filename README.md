@@ -47,3 +47,5 @@ After successfully creating a project, like described above, you can use the dom
 4. Inside of the "Sensor" element you need to create at least one (you can create as much as you want) "Service" element. An "Service" element needs a name defined like this "\<name\>" and you need to open and close the typical element brackets. 
 5. An "Service" element has an attribute called "uuid" which is defined like this "\<uuid\>".
 6. Also there needs to be at least one "Characteristic" element created inside the "Service" element. 
+
+![GitHub Logo](/images/02_DSL_Example.PNG)
