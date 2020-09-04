@@ -51,4 +51,5 @@ After successfully creating a project, like described above, you can use the dom
 8. Finally you can add an "MacFilter"- and an "NameFilter" element inside the "App" element to enable the corresponding feature.
 
 Here is an example of such an domain specific language instance:
+
 ![DSL Instance Example](/images/02_DSL_Example.PNG)
