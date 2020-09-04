@@ -61,3 +61,21 @@ After saving the domain specific language file (.appdsl) the following structure
 ![Generation Structure](/images/03_Generated_Code.PNG)
 
 You can see there is a folder created with the name of the application. There is one folder for the Android and one for the iOS related code. The folder structure giving you a hint where you need to import the files inside the corresponding IDE (Android Studio and Xcode).
+
+## Possible adjustments in the generated code
+
+### iOS
+
+<b>BLEManager.swift</b>
+
+Inside the "didUpdateValueFor" method there is a TODO statement. At this point you can add your own code to handle the received data and do a conversion of the incoming data if needed. In the generated code version the first byte of the incoming data is used.
+
+<b>ViewController.swift</b>
+
+If you have defined characteristics with the write option set to true and also decided to create an ui element, than you can add your own code inside the "writeTextField..." methods. There is a TODO statement where you can add code to receive the input from the corresponding TextField and convert it if necessary.
+
+### Android
+
+<b>Test.java</b>
+
+Test
