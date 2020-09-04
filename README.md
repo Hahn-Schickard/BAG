@@ -55,3 +55,9 @@ Here is an example of such an domain specific language instance:
 ![DSL Instance Example](/images/02_DSL_Example.PNG)
 
 In this example the application is called "Tutorial App" and the package name is defined as "com.example". The "Sensor" element is named "TutorialSensor" and there is one "Service" element added with the name "Tutorial Service". The "uuid" of the "Service" is "0003cbbb-0000-1000-8000-00805f9b0131". The "Service" element has only one "Characteristic" element named "TutorialCharacteristic". The "uuid" of the "Characteristic" is "c0680e1b-18bc-4645-aa8e-62f47d20f637", the "dataType" is set to "Float", the "read" and "write" options are set to true and the "notification" option is set to "false". There is also one "UiElement" added to the "Characteristic" element leading to the creation of ui elements for that "Characteristic". In the last few lines there is a "MacFilter" with the two example MAC-addresses "11:22:33:44:55:66" and "77:88:99:11:22:33" defined and a "NameFilter" with the expression "BLE". In this example the application would only list bluetooth low energy devices matching the defined MAC-addresses and the defined "NameFilter".
+
+After saving the domain specific language file (.appdsl) the following structure should be generated:
+
+![Generation Structure](/images/03_Generated_Code.PNG)
+
+You can see there is a folder created with the name of the application. There is one folder for the Android and one for the iOS related code. The folder structure giving you a hint where you need to import the files inside the corresponding IDE (Android Studio and Xcode).
