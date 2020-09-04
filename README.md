@@ -46,6 +46,9 @@ After successfully creating a project, like described above, you can use the dom
 3. Also inside the "App" element you need to create an "Sensor" element. The "Sensor" element needs a name defined like this "\<name\>" and you need to open and close the typical element brackets "{" "}".
 4. Inside of the "Sensor" element you need to create at least one (you can create as much as you want) "Service" element. An "Service" element needs a name defined like this "\<name\>" and you need to open and close the typical element brackets. 
 5. An "Service" element has an attribute called "uuid" which is defined like this "\<uuid\>".
-6. Also there needs to be at least one "Characteristic" element created inside the "Service" element. 
+6. Also there needs to be at least one "Characteristic" element created inside the "Service" element.
+7. An "Characteristic" element has an "uuid"-, "dataType"-, "read"-, "write"- and "notification"-attribute. There is also the possibility to add an "UiElement" element to define if an provisionally ui element should be created for it.
+8. Finally you can add an "MacFilter"- and an "NameFilter" element inside the "App" element to enable the corresponding feature.
 
-![GitHub Logo](/images/02_DSL_Example.PNG)
+Here is an example of such an domain specific language instance:
+![DSL Instance Example](/images/02_DSL_Example.PNG)
