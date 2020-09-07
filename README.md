@@ -68,7 +68,7 @@ You can see there is a folder created with the name of the application. There is
 
 <b>BLEManager.swift</b>
 
-Inside the "didUpdateValueFor" method there is a TODO statement. At this point you can add your own code to handle the received data and do a conversion of the incoming data if needed. In the generated code version the first byte of the incoming data is used.
+Inside the "didUpdateValueFor" method there is a TODO statement for every defined characteristic. At this point you can add your own code to handle the received data and do a conversion of the incoming data if needed. In the generated code version the first byte of the incoming data is used.
 
 <b>ViewController.swift</b>
 
@@ -82,4 +82,4 @@ Inside every set-method there is a TODO statement. At this point you can add you
 
 <b>Helper.java</b>
 
-In some of the writeCharacteristic-methods there is a TODO statement. At this point you can add your own conversion method or adjust the already existing ones.
+In every writeCharacteristic-method there is a TODO statement. At this point you can add your own conversion method or adjust the already existing ones.
