@@ -79,3 +79,7 @@ If you have defined characteristics with the write option set to true and also d
 <b>DataStruct.java</b>
 
 Inside every set-method there is a TODO statement. At this point you can add your own code to handle the received data and do a conversion of the incoming data if needed. In the generated code version the first byte of the incoming data is used.
+
+<b>Helper.java</b>
+
+In some of the writeCharacteristic-methods there is a TODO statement. At this point you can add your own conversion method or adjust the already existing ones.
