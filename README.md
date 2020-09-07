@@ -76,6 +76,6 @@ If you have defined characteristics with the write option set to true and also d
 
 ### Android
 
-<b>Test.java</b>
+<b>DataStruct.java</b>
 
-Test
+Inside every set-method there is a TODO statement. At this point you can add your own code to handle the received data and do a conversion of the incoming data if needed. In the generated code version the first byte of the incoming data is used.
