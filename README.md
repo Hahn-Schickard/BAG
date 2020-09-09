@@ -15,17 +15,17 @@ This project consisting of the "Ecore Diagramm Editor", "EMF - Eclipse Modeling 
 	2. "Ecore Diagramm Editor (SDK)"
 	3. "EMF - Eclipse Modeling Framework SDK"
 	4. "Xtext Complete SDK"
-4. After successfully installing all necessary libraries and restarting the Eclipse IDE you can import the "AppGenerator" library.
+4. After successfully installing all necessary libraries and restarting the Eclipse IDE you can import the "BAG" library.
 
-## Import of the "AppGenerator" library
+## Import of the "BAG" library
 
 For using the library you have two options. Option one is for developer who want to edit or view the underlying code and the projects defining the domain specific language. Option two is for users who only want to use the defined domain specific language for generating the corresponding code.
 
 ### Option 1: Developer
 
-1. Download "AppGenerator_src.zip"
+1. Download "BAG.zip"
 2. Inside the Eclipse IDE select "File" -> "Import..." -> "General" -> "Achrive File" and choose the downloaded zip file
-3. After successfully importing the project you can use the "AppGenerator"
+3. After successfully importing the project you can use the "BAG"
 4. If there are any errors displayed you need to edit some settings
 	1. Open "Window" -> "Preferences" -> "Target Platform" -> "Running platform (active)" and choose "Edit"
 	2. In the "Environment" tab edit the "Operating System" and "Windowing System" regarding your installed operating system
@@ -33,7 +33,7 @@ For using the library you have two options. Option one is for developer who want
 
 ### Option 2: User
 
-1. Download "AppGenerator_user.zip"
+1. Download "BAG_user.zip"
 2. Inside the Eclipe IDE select "Help" -> "Install New Software..." -> "Add" -> "Archive" and choose the downloaded zip file
 3. Install the plugin and restart the Eclipse IDE
 4. Create a new general project via "File" -> "New" -> "Project"
