@@ -23,7 +23,7 @@ For using the library you have two options. Option one is for developer who want
 
 ### Option 1: Developer
 
-1. Download "BAG.zip"
+1. Download "BAG_developer.zip" or clone the repository
 2. Inside the Eclipse IDE select "File" -> "Import..." -> "General" -> "Achrive File" and choose the downloaded zip file
 3. After successfully importing the project you can use the "BAG"
 4. If there are any errors displayed you need to edit some settings
