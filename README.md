@@ -50,7 +50,7 @@ After successfully creating a project, like described above, you can use the dom
 7. An "Characteristic" element has an "uuid"-, "dataType"-, "read"-, "write"- and "notification"-attribute. There is also the possibility to add an "UiElement" element to define if an provisionally ui element should be created for it.
 8. Finally you can add an "MacFilter"- and an "NameFilter" element inside the "App" element to enable the corresponding feature.
 
-Here is an example of such an domain specific language instance:
+Here is an example of such an instance:
 
 ![DSL Instance Example](/images/02_DSL_Example.PNG)
 
