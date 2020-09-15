@@ -10,36 +10,36 @@ This project consisting of the "Ecore Diagramm Editor", "EMF - Eclipse Modeling 
 
 1. Download the current version of the Eclipse Installer here: https://www.eclipse.org/downloads/
 2. Install the "Eclipse IDE for Java Developers"
-3. After the installation of the Eclipse IDE you need to install the necessary additional libraries inside the Eclipse IDE:
-	1. Select "Help" -> "Install New Software..." choose "All available sites" in the "Work with" field and search for the libraries.
-	2. "Ecore Diagramm Editor (SDK)"
-	3. "EMF - Eclipse Modeling Framework SDK"
-	4. "Xtext Complete SDK"
-4. After successfully installing all necessary libraries and restarting the Eclipse IDE you can import the "BAG" library.
+3. After successfully installing the Eclipse IDE you can import the "BAG" library.
 
 ## Import of the "BAG" library
 
 For using the library you have two options. Option one is for developer who want to edit or view the underlying code and the projects defining the domain specific language. Option two is for users who only want to use the defined domain specific language for generating the corresponding code.
 
-### Option 1: Developer
-
-1. Download "BAG_developer.zip" or clone the repository
-2. Inside the Eclipse IDE select "File" -> "Import..." -> "General" -> "Achrive File" and choose the downloaded zip file
-3. After successfully importing the project you can use the "BAG"
-4. If there are any errors displayed you need to edit some settings
-	1. Open "Window" -> "Preferences" -> "Target Platform" -> "Running platform (active)" and choose "Edit"
-	2. In the "Environment" tab edit the "Operating System" and "Windowing System" regarding your installed operating system
-	3. E.g. for Windows you have to select "Win32" and "x86_64" for "Architecture"
-
-### Option 2: User
+### Option 1: User
 
 1. Download "BAG_user.zip"
 2. Inside the Eclipe IDE select "Help" -> "Install New Software..." -> "Add" -> "Archive" and choose the downloaded zip file
 3. Install the plugin and restart the Eclipse IDE
 4. Create a new general project via "File" -> "New" -> "Project"
-5. Create a textfile inside the project with ".appdsl" as the extension
+5. Create a textfile inside the project with ".bag" as the extension
 6. Accept the question if the project should be converted into an xtext project with "Yes"
-7. Inside the ".appdsl" file you can describe your bluetooth low energy device and its corresponding features. By saving this file the code for an Android and iOS application will be generated in the appearing "src-gen" folder
+7. Inside the ".bag" file you can describe your bluetooth low energy device and its corresponding features. By saving this file the code for an Android and iOS application will be generated in the appearing "src-gen" folder
+
+### Option 2: Developer
+
+1. After the installation of the Eclipse IDE you need to install the necessary additional libraries inside the Eclipse IDE:
+	1. Select "Help" -> "Install New Software..." choose "All available sites" in the "Work with" field and search for the libraries.
+	2. "Ecore Diagramm Editor (SDK)"
+	3. "EMF - Eclipse Modeling Framework SDK"
+	4. "Xtext Complete SDK"
+2. Download "BAG_developer.zip" or clone the repository
+3. Inside the Eclipse IDE select "File" -> "Import..." -> "General" -> "Achrive File" and choose the downloaded zip file
+4. After successfully importing the project you can use the "BAG" library
+5. If there are any errors displayed you need to edit some settings
+	1. Open "Window" -> "Preferences" -> "Target Platform" -> "Running platform (active)" and choose "Edit"
+	2. In the "Environment" tab edit the "Operating System" and "Windowing System" regarding your installed operating system
+	3. E.g. for Windows you have to select "Win32" and "x86_64" for "Architecture"
 
 ## Usage of the project and its domain specific language
 
@@ -60,7 +60,7 @@ Here is an example of such an instance:
 
 In this example the application is called "Tutorial App" and the package name is defined as "com.example". The "Sensor" element is named "TutorialSensor" and there is one "Service" element added with the name "Tutorial Service". The "uuid" of the "Service" is "0003cbbb-0000-1000-8000-00805f9b0131". The "Service" element has only one "Characteristic" element named "TutorialCharacteristic". The "uuid" of the "Characteristic" is "c0680e1b-18bc-4645-aa8e-62f47d20f637", the "dataType" is set to "Float", the "read" and "write" options are set to true and the "notification" option is set to "false". There is also one "UiElement" added to the "Characteristic" element leading to the creation of ui elements for that "Characteristic". In the last few lines there is a "MacFilter" with the two example MAC-addresses "11:22:33:44:55:66" and "77:88:99:11:22:33" defined and a "NameFilter" with the expression "BLE". In this example the application would only list bluetooth low energy devices matching the defined MAC-addresses and the defined "NameFilter".
 
-After saving the domain specific language file (.appdsl) the following structure should be generated:
+After saving the domain specific language file (.bag) the following structure should be generated:
 
 ![Generation Structure](/images/03_Generated_Code.PNG)
 
