@@ -1,0 +1,1247 @@
+/**
+ */
+package example.app.model.appEcore;
+
+import org.eclipse.emf.ecore.EAttribute;
+import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EEnum;
+import org.eclipse.emf.ecore.EPackage;
+import org.eclipse.emf.ecore.EReference;
+
+/**
+ * <!-- begin-user-doc -->
+ * The <b>Package</b> for the model.
+ * It contains accessors for the meta objects to represent
+ * <ul>
+ *   <li>each class,</li>
+ *   <li>each feature of each class,</li>
+ *   <li>each operation of each class,</li>
+ *   <li>each enum,</li>
+ *   <li>and each data type</li>
+ * </ul>
+ * <!-- end-user-doc -->
+ * @see bag.model.bagEcore.AppEcoreFactory
+ * @model kind="package"
+ * @generated
+ */
+public interface AppEcorePackage extends EPackage {
+	/**
+	 * The package name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	String eNAME = "appEcore";
+
+	/**
+	 * The package namespace URI.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	String eNS_URI = "http://www.example.org/appEcore";
+
+	/**
+	 * The package namespace name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	String eNS_PREFIX = "appEcore";
+
+	/**
+	 * The singleton instance of the package.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	AppEcorePackage eINSTANCE = example.app.model.appEcore.impl.AppEcorePackageImpl.init();
+
+	/**
+	 * The meta object id for the '{@link example.app.model.appEcore.impl.AppImpl <em>App</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see example.app.model.appEcore.impl.AppImpl
+	 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getApp()
+	 * @generated
+	 */
+	int APP = 0;
+
+	/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int APP__NAME = 0;
+
+	/**
+	 * The feature id for the '<em><b>Sensor</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int APP__SENSOR = 1;
+
+	/**
+	 * The feature id for the '<em><b>Macfilter</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int APP__MACFILTER = 2;
+
+	/**
+	 * The feature id for the '<em><b>Namefilter</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int APP__NAMEFILTER = 3;
+
+	/**
+	 * The feature id for the '<em><b>Package Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int APP__PACKAGE_NAME = 4;
+
+	/**
+	 * The number of structural features of the '<em>App</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int APP_FEATURE_COUNT = 5;
+
+	/**
+	 * The number of operations of the '<em>App</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int APP_OPERATION_COUNT = 0;
+
+	/**
+	 * The meta object id for the '{@link example.app.model.appEcore.impl.SensorImpl <em>Sensor</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see example.app.model.appEcore.impl.SensorImpl
+	 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getSensor()
+	 * @generated
+	 */
+	int SENSOR = 1;
+
+	/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SENSOR__NAME = 0;
+
+	/**
+	 * The feature id for the '<em><b>Service</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SENSOR__SERVICE = 1;
+
+	/**
+	 * The number of structural features of the '<em>Sensor</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SENSOR_FEATURE_COUNT = 2;
+
+	/**
+	 * The number of operations of the '<em>Sensor</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SENSOR_OPERATION_COUNT = 0;
+
+	/**
+	 * The meta object id for the '{@link example.app.model.appEcore.impl.MacFilterImpl <em>Mac Filter</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see example.app.model.appEcore.impl.MacFilterImpl
+	 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getMacFilter()
+	 * @generated
+	 */
+	int MAC_FILTER = 2;
+
+	/**
+	 * The feature id for the '<em><b>Macaddress</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MAC_FILTER__MACADDRESS = 0;
+
+	/**
+	 * The number of structural features of the '<em>Mac Filter</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MAC_FILTER_FEATURE_COUNT = 1;
+
+	/**
+	 * The number of operations of the '<em>Mac Filter</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MAC_FILTER_OPERATION_COUNT = 0;
+
+	/**
+	 * The meta object id for the '{@link example.app.model.appEcore.impl.MacAddressImpl <em>Mac Address</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see example.app.model.appEcore.impl.MacAddressImpl
+	 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getMacAddress()
+	 * @generated
+	 */
+	int MAC_ADDRESS = 3;
+
+	/**
+	 * The feature id for the '<em><b>Address</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MAC_ADDRESS__ADDRESS = 0;
+
+	/**
+	 * The number of structural features of the '<em>Mac Address</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MAC_ADDRESS_FEATURE_COUNT = 1;
+
+	/**
+	 * The number of operations of the '<em>Mac Address</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MAC_ADDRESS_OPERATION_COUNT = 0;
+
+	/**
+	 * The meta object id for the '{@link example.app.model.appEcore.impl.CharacteristicImpl <em>Characteristic</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see example.app.model.appEcore.impl.CharacteristicImpl
+	 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getCharacteristic()
+	 * @generated
+	 */
+	int CHARACTERISTIC = 4;
+
+	/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHARACTERISTIC__NAME = 0;
+
+	/**
+	 * The feature id for the '<em><b>Uuid</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHARACTERISTIC__UUID = 1;
+
+	/**
+	 * The feature id for the '<em><b>Data Type</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHARACTERISTIC__DATA_TYPE = 2;
+
+	/**
+	 * The feature id for the '<em><b>Unit</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHARACTERISTIC__UNIT = 3;
+
+	/**
+	 * The feature id for the '<em><b>Read</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHARACTERISTIC__READ = 4;
+
+	/**
+	 * The feature id for the '<em><b>Write</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHARACTERISTIC__WRITE = 5;
+
+	/**
+	 * The feature id for the '<em><b>Notification</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHARACTERISTIC__NOTIFICATION = 6;
+
+	/**
+	 * The feature id for the '<em><b>Uielement</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHARACTERISTIC__UIELEMENT = 7;
+
+	/**
+	 * The number of structural features of the '<em>Characteristic</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHARACTERISTIC_FEATURE_COUNT = 8;
+
+	/**
+	 * The number of operations of the '<em>Characteristic</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHARACTERISTIC_OPERATION_COUNT = 0;
+
+	/**
+	 * The meta object id for the '{@link example.app.model.appEcore.impl.NameFilterImpl <em>Name Filter</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see example.app.model.appEcore.impl.NameFilterImpl
+	 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getNameFilter()
+	 * @generated
+	 */
+	int NAME_FILTER = 5;
+
+	/**
+	 * The feature id for the '<em><b>Name</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int NAME_FILTER__NAME = 0;
+
+	/**
+	 * The number of structural features of the '<em>Name Filter</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int NAME_FILTER_FEATURE_COUNT = 1;
+
+	/**
+	 * The number of operations of the '<em>Name Filter</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int NAME_FILTER_OPERATION_COUNT = 0;
+
+	/**
+	 * The meta object id for the '{@link example.app.model.appEcore.impl.NameExpressionImpl <em>Name Expression</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see example.app.model.appEcore.impl.NameExpressionImpl
+	 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getNameExpression()
+	 * @generated
+	 */
+	int NAME_EXPRESSION = 6;
+
+	/**
+	 * The feature id for the '<em><b>Reg Ex</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int NAME_EXPRESSION__REG_EX = 0;
+
+	/**
+	 * The number of structural features of the '<em>Name Expression</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int NAME_EXPRESSION_FEATURE_COUNT = 1;
+
+	/**
+	 * The number of operations of the '<em>Name Expression</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int NAME_EXPRESSION_OPERATION_COUNT = 0;
+
+	/**
+	 * The meta object id for the '{@link example.app.model.appEcore.impl.UiElementImpl <em>Ui Element</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see example.app.model.appEcore.impl.UiElementImpl
+	 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getUiElement()
+	 * @generated
+	 */
+	int UI_ELEMENT = 8;
+
+	/**
+	 * The meta object id for the '{@link example.app.model.appEcore.impl.ServiceImpl <em>Service</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see example.app.model.appEcore.impl.ServiceImpl
+	 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getService()
+	 * @generated
+	 */
+	int SERVICE = 7;
+
+	/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SERVICE__NAME = 0;
+
+	/**
+	 * The feature id for the '<em><b>Characteristic</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SERVICE__CHARACTERISTIC = 1;
+
+	/**
+	 * The feature id for the '<em><b>Uuid</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SERVICE__UUID = 2;
+
+	/**
+	 * The number of structural features of the '<em>Service</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SERVICE_FEATURE_COUNT = 3;
+
+	/**
+	 * The number of operations of the '<em>Service</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SERVICE_OPERATION_COUNT = 0;
+
+	/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int UI_ELEMENT__NAME = 0;
+
+	/**
+	 * The feature id for the '<em><b>Label</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int UI_ELEMENT__LABEL = 1;
+
+	/**
+	 * The feature id for the '<em><b>Description</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int UI_ELEMENT__DESCRIPTION = 2;
+
+	/**
+	 * The number of structural features of the '<em>Ui Element</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int UI_ELEMENT_FEATURE_COUNT = 3;
+
+	/**
+	 * The number of operations of the '<em>Ui Element</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int UI_ELEMENT_OPERATION_COUNT = 0;
+
+	/**
+	 * The meta object id for the '{@link bag.model.bagEcore.DataType <em>Data Type</em>}' enum.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see bag.model.bagEcore.DataType
+	 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getDataType()
+	 * @generated
+	 */
+	int DATA_TYPE = 9;
+
+	/**
+	 * Returns the meta object for class '{@link bag.model.bagEcore.App <em>App</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>App</em>'.
+	 * @see bag.model.bagEcore.App
+	 * @generated
+	 */
+	EClass getApp();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.App#getName <em>Name</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Name</em>'.
+	 * @see bag.model.bagEcore.App#getName()
+	 * @see #getApp()
+	 * @generated
+	 */
+	EAttribute getApp_Name();
+
+	/**
+	 * Returns the meta object for the containment reference '{@link bag.model.bagEcore.App#getSensor <em>Sensor</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference '<em>Sensor</em>'.
+	 * @see bag.model.bagEcore.App#getSensor()
+	 * @see #getApp()
+	 * @generated
+	 */
+	EReference getApp_Sensor();
+
+	/**
+	 * Returns the meta object for the containment reference '{@link bag.model.bagEcore.App#getMacfilter <em>Macfilter</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference '<em>Macfilter</em>'.
+	 * @see bag.model.bagEcore.App#getMacfilter()
+	 * @see #getApp()
+	 * @generated
+	 */
+	EReference getApp_Macfilter();
+
+	/**
+	 * Returns the meta object for the containment reference '{@link bag.model.bagEcore.App#getNamefilter <em>Namefilter</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference '<em>Namefilter</em>'.
+	 * @see bag.model.bagEcore.App#getNamefilter()
+	 * @see #getApp()
+	 * @generated
+	 */
+	EReference getApp_Namefilter();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.App#getPackageName <em>Package Name</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Package Name</em>'.
+	 * @see bag.model.bagEcore.App#getPackageName()
+	 * @see #getApp()
+	 * @generated
+	 */
+	EAttribute getApp_PackageName();
+
+	/**
+	 * Returns the meta object for class '{@link bag.model.bagEcore.Sensor <em>Sensor</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Sensor</em>'.
+	 * @see bag.model.bagEcore.Sensor
+	 * @generated
+	 */
+	EClass getSensor();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.Sensor#getName <em>Name</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Name</em>'.
+	 * @see bag.model.bagEcore.Sensor#getName()
+	 * @see #getSensor()
+	 * @generated
+	 */
+	EAttribute getSensor_Name();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link bag.model.bagEcore.Sensor#getService <em>Service</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Service</em>'.
+	 * @see bag.model.bagEcore.Sensor#getService()
+	 * @see #getSensor()
+	 * @generated
+	 */
+	EReference getSensor_Service();
+
+	/**
+	 * Returns the meta object for class '{@link bag.model.bagEcore.MacFilter <em>Mac Filter</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Mac Filter</em>'.
+	 * @see bag.model.bagEcore.MacFilter
+	 * @generated
+	 */
+	EClass getMacFilter();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link bag.model.bagEcore.MacFilter#getMacaddress <em>Macaddress</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Macaddress</em>'.
+	 * @see bag.model.bagEcore.MacFilter#getMacaddress()
+	 * @see #getMacFilter()
+	 * @generated
+	 */
+	EReference getMacFilter_Macaddress();
+
+	/**
+	 * Returns the meta object for class '{@link bag.model.bagEcore.MacAddress <em>Mac Address</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Mac Address</em>'.
+	 * @see bag.model.bagEcore.MacAddress
+	 * @generated
+	 */
+	EClass getMacAddress();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.MacAddress#getAddress <em>Address</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Address</em>'.
+	 * @see bag.model.bagEcore.MacAddress#getAddress()
+	 * @see #getMacAddress()
+	 * @generated
+	 */
+	EAttribute getMacAddress_Address();
+
+	/**
+	 * Returns the meta object for class '{@link bag.model.bagEcore.Characteristic <em>Characteristic</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Characteristic</em>'.
+	 * @see bag.model.bagEcore.Characteristic
+	 * @generated
+	 */
+	EClass getCharacteristic();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.Characteristic#getName <em>Name</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Name</em>'.
+	 * @see bag.model.bagEcore.Characteristic#getName()
+	 * @see #getCharacteristic()
+	 * @generated
+	 */
+	EAttribute getCharacteristic_Name();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.Characteristic#getUuid <em>Uuid</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Uuid</em>'.
+	 * @see bag.model.bagEcore.Characteristic#getUuid()
+	 * @see #getCharacteristic()
+	 * @generated
+	 */
+	EAttribute getCharacteristic_Uuid();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.Characteristic#getDataType <em>Data Type</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Data Type</em>'.
+	 * @see bag.model.bagEcore.Characteristic#getDataType()
+	 * @see #getCharacteristic()
+	 * @generated
+	 */
+	EAttribute getCharacteristic_DataType();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.Characteristic#getUnit <em>Unit</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Unit</em>'.
+	 * @see bag.model.bagEcore.Characteristic#getUnit()
+	 * @see #getCharacteristic()
+	 * @generated
+	 */
+	EAttribute getCharacteristic_Unit();
+
+	/**
+	 * Returns the meta object for the containment reference '{@link bag.model.bagEcore.Characteristic#getUielement <em>Uielement</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference '<em>Uielement</em>'.
+	 * @see bag.model.bagEcore.Characteristic#getUielement()
+	 * @see #getCharacteristic()
+	 * @generated
+	 */
+	EReference getCharacteristic_Uielement();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.Characteristic#isRead <em>Read</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Read</em>'.
+	 * @see bag.model.bagEcore.Characteristic#isRead()
+	 * @see #getCharacteristic()
+	 * @generated
+	 */
+	EAttribute getCharacteristic_Read();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.Characteristic#isWrite <em>Write</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Write</em>'.
+	 * @see bag.model.bagEcore.Characteristic#isWrite()
+	 * @see #getCharacteristic()
+	 * @generated
+	 */
+	EAttribute getCharacteristic_Write();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.Characteristic#isNotification <em>Notification</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Notification</em>'.
+	 * @see bag.model.bagEcore.Characteristic#isNotification()
+	 * @see #getCharacteristic()
+	 * @generated
+	 */
+	EAttribute getCharacteristic_Notification();
+
+	/**
+	 * Returns the meta object for class '{@link bag.model.bagEcore.NameFilter <em>Name Filter</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Name Filter</em>'.
+	 * @see bag.model.bagEcore.NameFilter
+	 * @generated
+	 */
+	EClass getNameFilter();
+
+	/**
+	 * Returns the meta object for the containment reference '{@link bag.model.bagEcore.NameFilter#getName <em>Name</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference '<em>Name</em>'.
+	 * @see bag.model.bagEcore.NameFilter#getName()
+	 * @see #getNameFilter()
+	 * @generated
+	 */
+	EReference getNameFilter_Name();
+
+	/**
+	 * Returns the meta object for class '{@link bag.model.bagEcore.NameExpression <em>Name Expression</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Name Expression</em>'.
+	 * @see bag.model.bagEcore.NameExpression
+	 * @generated
+	 */
+	EClass getNameExpression();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.NameExpression#getRegEx <em>Reg Ex</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Reg Ex</em>'.
+	 * @see bag.model.bagEcore.NameExpression#getRegEx()
+	 * @see #getNameExpression()
+	 * @generated
+	 */
+	EAttribute getNameExpression_RegEx();
+
+	/**
+	 * Returns the meta object for class '{@link bag.model.bagEcore.Service <em>Service</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Service</em>'.
+	 * @see bag.model.bagEcore.Service
+	 * @generated
+	 */
+	EClass getService();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.Service#getName <em>Name</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Name</em>'.
+	 * @see bag.model.bagEcore.Service#getName()
+	 * @see #getService()
+	 * @generated
+	 */
+	EAttribute getService_Name();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link bag.model.bagEcore.Service#getCharacteristic <em>Characteristic</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Characteristic</em>'.
+	 * @see bag.model.bagEcore.Service#getCharacteristic()
+	 * @see #getService()
+	 * @generated
+	 */
+	EReference getService_Characteristic();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.Service#getUuid <em>Uuid</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Uuid</em>'.
+	 * @see bag.model.bagEcore.Service#getUuid()
+	 * @see #getService()
+	 * @generated
+	 */
+	EAttribute getService_Uuid();
+
+	/**
+	 * Returns the meta object for class '{@link bag.model.bagEcore.UiElement <em>Ui Element</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Ui Element</em>'.
+	 * @see bag.model.bagEcore.UiElement
+	 * @generated
+	 */
+	EClass getUiElement();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.UiElement#getName <em>Name</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Name</em>'.
+	 * @see bag.model.bagEcore.UiElement#getName()
+	 * @see #getUiElement()
+	 * @generated
+	 */
+	EAttribute getUiElement_Name();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.UiElement#getLabel <em>Label</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Label</em>'.
+	 * @see bag.model.bagEcore.UiElement#getLabel()
+	 * @see #getUiElement()
+	 * @generated
+	 */
+	EAttribute getUiElement_Label();
+
+	/**
+	 * Returns the meta object for the attribute '{@link bag.model.bagEcore.UiElement#getDescription <em>Description</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Description</em>'.
+	 * @see bag.model.bagEcore.UiElement#getDescription()
+	 * @see #getUiElement()
+	 * @generated
+	 */
+	EAttribute getUiElement_Description();
+
+	/**
+	 * Returns the meta object for enum '{@link bag.model.bagEcore.DataType <em>Data Type</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for enum '<em>Data Type</em>'.
+	 * @see bag.model.bagEcore.DataType
+	 * @generated
+	 */
+	EEnum getDataType();
+
+	/**
+	 * Returns the factory that creates the instances of the model.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the factory that creates the instances of the model.
+	 * @generated
+	 */
+	AppEcoreFactory getAppEcoreFactory();
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * Defines literals for the meta objects that represent
+	 * <ul>
+	 *   <li>each class,</li>
+	 *   <li>each feature of each class,</li>
+	 *   <li>each operation of each class,</li>
+	 *   <li>each enum,</li>
+	 *   <li>and each data type</li>
+	 * </ul>
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	interface Literals {
+		/**
+		 * The meta object literal for the '{@link example.app.model.appEcore.impl.AppImpl <em>App</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see example.app.model.appEcore.impl.AppImpl
+		 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getApp()
+		 * @generated
+		 */
+		EClass APP = eINSTANCE.getApp();
+
+		/**
+		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute APP__NAME = eINSTANCE.getApp_Name();
+
+		/**
+		 * The meta object literal for the '<em><b>Sensor</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference APP__SENSOR = eINSTANCE.getApp_Sensor();
+
+		/**
+		 * The meta object literal for the '<em><b>Macfilter</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference APP__MACFILTER = eINSTANCE.getApp_Macfilter();
+
+		/**
+		 * The meta object literal for the '<em><b>Namefilter</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference APP__NAMEFILTER = eINSTANCE.getApp_Namefilter();
+
+		/**
+		 * The meta object literal for the '<em><b>Package Name</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute APP__PACKAGE_NAME = eINSTANCE.getApp_PackageName();
+
+		/**
+		 * The meta object literal for the '{@link example.app.model.appEcore.impl.SensorImpl <em>Sensor</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see example.app.model.appEcore.impl.SensorImpl
+		 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getSensor()
+		 * @generated
+		 */
+		EClass SENSOR = eINSTANCE.getSensor();
+
+		/**
+		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SENSOR__NAME = eINSTANCE.getSensor_Name();
+
+		/**
+		 * The meta object literal for the '<em><b>Service</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference SENSOR__SERVICE = eINSTANCE.getSensor_Service();
+
+		/**
+		 * The meta object literal for the '{@link example.app.model.appEcore.impl.MacFilterImpl <em>Mac Filter</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see example.app.model.appEcore.impl.MacFilterImpl
+		 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getMacFilter()
+		 * @generated
+		 */
+		EClass MAC_FILTER = eINSTANCE.getMacFilter();
+
+		/**
+		 * The meta object literal for the '<em><b>Macaddress</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MAC_FILTER__MACADDRESS = eINSTANCE.getMacFilter_Macaddress();
+
+		/**
+		 * The meta object literal for the '{@link example.app.model.appEcore.impl.MacAddressImpl <em>Mac Address</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see example.app.model.appEcore.impl.MacAddressImpl
+		 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getMacAddress()
+		 * @generated
+		 */
+		EClass MAC_ADDRESS = eINSTANCE.getMacAddress();
+
+		/**
+		 * The meta object literal for the '<em><b>Address</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute MAC_ADDRESS__ADDRESS = eINSTANCE.getMacAddress_Address();
+
+		/**
+		 * The meta object literal for the '{@link example.app.model.appEcore.impl.CharacteristicImpl <em>Characteristic</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see example.app.model.appEcore.impl.CharacteristicImpl
+		 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getCharacteristic()
+		 * @generated
+		 */
+		EClass CHARACTERISTIC = eINSTANCE.getCharacteristic();
+
+		/**
+		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CHARACTERISTIC__NAME = eINSTANCE.getCharacteristic_Name();
+
+		/**
+		 * The meta object literal for the '<em><b>Uuid</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CHARACTERISTIC__UUID = eINSTANCE.getCharacteristic_Uuid();
+
+		/**
+		 * The meta object literal for the '<em><b>Data Type</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CHARACTERISTIC__DATA_TYPE = eINSTANCE.getCharacteristic_DataType();
+
+		/**
+		 * The meta object literal for the '<em><b>Unit</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CHARACTERISTIC__UNIT = eINSTANCE.getCharacteristic_Unit();
+
+		/**
+		 * The meta object literal for the '<em><b>Uielement</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference CHARACTERISTIC__UIELEMENT = eINSTANCE.getCharacteristic_Uielement();
+
+		/**
+		 * The meta object literal for the '<em><b>Read</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CHARACTERISTIC__READ = eINSTANCE.getCharacteristic_Read();
+
+		/**
+		 * The meta object literal for the '<em><b>Write</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CHARACTERISTIC__WRITE = eINSTANCE.getCharacteristic_Write();
+
+		/**
+		 * The meta object literal for the '<em><b>Notification</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CHARACTERISTIC__NOTIFICATION = eINSTANCE.getCharacteristic_Notification();
+
+		/**
+		 * The meta object literal for the '{@link example.app.model.appEcore.impl.NameFilterImpl <em>Name Filter</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see example.app.model.appEcore.impl.NameFilterImpl
+		 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getNameFilter()
+		 * @generated
+		 */
+		EClass NAME_FILTER = eINSTANCE.getNameFilter();
+
+		/**
+		 * The meta object literal for the '<em><b>Name</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference NAME_FILTER__NAME = eINSTANCE.getNameFilter_Name();
+
+		/**
+		 * The meta object literal for the '{@link example.app.model.appEcore.impl.NameExpressionImpl <em>Name Expression</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see example.app.model.appEcore.impl.NameExpressionImpl
+		 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getNameExpression()
+		 * @generated
+		 */
+		EClass NAME_EXPRESSION = eINSTANCE.getNameExpression();
+
+		/**
+		 * The meta object literal for the '<em><b>Reg Ex</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute NAME_EXPRESSION__REG_EX = eINSTANCE.getNameExpression_RegEx();
+
+		/**
+		 * The meta object literal for the '{@link example.app.model.appEcore.impl.UiElementImpl <em>Ui Element</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see example.app.model.appEcore.impl.UiElementImpl
+		 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getUiElement()
+		 * @generated
+		 */
+		EClass UI_ELEMENT = eINSTANCE.getUiElement();
+
+		/**
+		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute UI_ELEMENT__NAME = eINSTANCE.getUiElement_Name();
+
+		/**
+		 * The meta object literal for the '<em><b>Label</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute UI_ELEMENT__LABEL = eINSTANCE.getUiElement_Label();
+
+		/**
+		 * The meta object literal for the '<em><b>Description</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute UI_ELEMENT__DESCRIPTION = eINSTANCE.getUiElement_Description();
+
+		/**
+		 * The meta object literal for the '{@link example.app.model.appEcore.impl.ServiceImpl <em>Service</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see example.app.model.appEcore.impl.ServiceImpl
+		 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getService()
+		 * @generated
+		 */
+		EClass SERVICE = eINSTANCE.getService();
+
+		/**
+		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SERVICE__NAME = eINSTANCE.getService_Name();
+
+		/**
+		 * The meta object literal for the '<em><b>Characteristic</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference SERVICE__CHARACTERISTIC = eINSTANCE.getService_Characteristic();
+
+		/**
+		 * The meta object literal for the '<em><b>Uuid</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SERVICE__UUID = eINSTANCE.getService_Uuid();
+
+		/**
+		 * The meta object literal for the '{@link bag.model.bagEcore.DataType <em>Data Type</em>}' enum.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see bag.model.bagEcore.DataType
+		 * @see example.app.model.appEcore.impl.AppEcorePackageImpl#getDataType()
+		 * @generated
+		 */
+		EEnum DATA_TYPE = eINSTANCE.getDataType();
+
+	}
+
+} //AppEcorePackage

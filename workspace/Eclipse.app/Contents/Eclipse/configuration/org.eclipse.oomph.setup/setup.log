@@ -1,0 +1,565 @@
+[2019-12-12 16:06:32] Executing startup tasks
+[2019-12-12 16:06:32] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2019-12-12 16:06:32] Product self.product.version
+[2019-12-12 16:06:32] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2019-12-12 16:06:32] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2019-12-12 16:06:32] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2019-12-12 16:06:32] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.e4.ui.css.swt.theme/themeid = org.eclipse.e4.ui.css.theme.e4_default
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.e4.ui.workbench.renderers.swt/enableMRU = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.e4.ui.workbench.renderers.swt/themeEnabled = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/editor_save_participant_org.eclipse.jdt.ui.postsavelistener.cleanup = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_default_serial_version_id = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_generated_serial_version_id = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_missing_annotations = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_missing_deprecated_annotations = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_missing_methods = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_missing_nls_tags = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_missing_override_annotations = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_missing_override_annotations_interface_methods = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.add_serial_version_id = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.always_use_blocks = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.always_use_parentheses_in_expressions = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.always_use_this_for_non_static_field_access = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.always_use_this_for_non_static_method_access = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.convert_functional_interfaces = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.convert_to_enhanced_for_loop = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.correct_indentation = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.format_source_code = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.format_source_code_changes_only = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.insert_inferred_type_arguments = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.make_local_variable_final = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.make_parameters_final = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.make_private_fields_final = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.make_type_abstract_if_missing_method = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.make_variable_declarations_final = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.never_use_blocks = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.never_use_parentheses_in_expressions = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.on_save_use_additional_actions = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.organize_imports = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.qualify_static_field_accesses_with_declaring_class = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.qualify_static_member_accesses_through_instances_with_declaring_class = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.qualify_static_member_accesses_through_subtypes_with_declaring_class = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.qualify_static_member_accesses_with_declaring_class = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.qualify_static_method_accesses_with_declaring_class = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_private_constructors = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_redundant_type_arguments = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_trailing_whitespaces = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_trailing_whitespaces_all = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_trailing_whitespaces_ignore_empty = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unnecessary_casts = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unnecessary_nls_tags = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_imports = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_local_variables = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_private_fields = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_private_members = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_private_methods = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_private_types = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.sort_members = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.sort_members_all = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_anonymous_class_creation = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_blocks = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_blocks_only_for_return_and_throw = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_lambda = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_parentheses_in_expressions = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_this_for_non_static_field_access = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_this_for_non_static_field_access_only_if_necessary = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_this_for_non_static_method_access = false
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.jdt.ui/sp_cleanup.use_this_for_non_static_method_access_only_if_necessary = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.Background = 255,255,255
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.Background.SystemDefault = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.FindScope = 185,176,180
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.Foreground = 0,0,0
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.Foreground.SystemDefault = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.SelectionBackground.SystemDefault = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.SelectionForeground.SystemDefault = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/breakpointIndicationColor = 0,0,255
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/currentIPColor = 198,219,174
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/currentLineColor = 232,242,254
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/deletionIndicationColor = 0,0,0
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/filteredSearchResultIndicationColor = 237,237,252
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/fullcoverage_color = 192,255,192
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/hyperlinkColor = 0,104,218
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/hyperlinkColor.SystemDefault = true
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/infoIndicationColor = 130,160,190
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/lineNumberColor = 120,120,120
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/linked.slave.color = 180,215,255
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/matchingTagIndicationColor = 212,212,212
+[2019-12-12 16:06:32] Performing Preference /instance/org.eclipse.ui.editors/nocoverage_color = 255,160,160
+[2019-12-12 16:06:33] Performing Preference /instance/org.eclipse.ui.editors/occurrenceIndicationColor = 212,212,212
+[2019-12-12 16:06:33] Performing Preference /instance/org.eclipse.ui.editors/overrideIndicatorColor = 180,207,205
+[2019-12-12 16:06:33] Performing Preference /instance/org.eclipse.ui.editors/partialcoverage_color = 255,255,128
+[2019-12-12 16:06:33] Performing Preference /instance/org.eclipse.ui.editors/printMarginColor = 176,180,185
+[2019-12-12 16:06:33] Performing Preference /instance/org.eclipse.ui.editors/searchResultHighlighting = true
+[2019-12-12 16:06:33] Performing Preference /instance/org.eclipse.ui.editors/searchResultIndication = false
+[2019-12-12 16:06:33] Performing Preference /instance/org.eclipse.ui.editors/searchResultIndicationColor = 206,204,247
+[2019-12-12 16:06:33] Performing Preference /instance/org.eclipse.ui.editors/searchResultTextStyle = NONE
+[2019-12-12 16:06:33] Performing Preference /instance/org.eclipse.ui.editors/secondaryIPColor = 219,235,204
+[2019-12-12 16:06:33] Performing Preference /instance/org.eclipse.ui.editors/spellingIndicationColor = 255,128,64
+[2019-12-12 16:06:33] Performing Preference /instance/org.eclipse.ui.editors/TextOccurrenceIndicationColor = 212,212,212
+[2019-12-12 16:06:33] Performing Preference /instance/org.eclipse.ui.editors/writeOccurrenceIndicationColor = 240,216,168
+[2019-12-12 16:06:33] 
+[2020-01-10 16:37:07] Executing startup tasks
+[2020-01-10 16:37:07] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2020-01-10 16:37:07] Product self.product.version
+[2020-01-10 16:37:07] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2020-01-10 16:37:07] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-10 16:37:07] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-10 16:37:07] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2020-01-10 16:37:07] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_background
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_foreground
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_background
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_foreground
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataBorder
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataText
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/commentBorder
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/commentText
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalId
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalPubref
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExtrenalSysref
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeName
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/entityReference
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/piBorder
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/piContent
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeEquals
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeName
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeValue
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/tagBorder
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/tagName
+[2020-01-10 16:37:08] Performing Preference /instance/org.eclipse.wst.xml.ui/xmlContent
+[2020-01-10 16:37:08] 
+[2020-01-10 16:39:23] Executing startup tasks
+[2020-01-10 16:39:23] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2020-01-10 16:39:23] Product self.product.version
+[2020-01-10 16:39:23] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2020-01-10 16:39:23] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-10 16:39:23] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-10 16:39:23] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_background
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_foreground
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_background
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_foreground
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataBorder
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataText
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/commentBorder
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/commentText
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalId
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalPubref
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExtrenalSysref
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeName
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/entityReference
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/piBorder
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/piContent
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeEquals
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeName
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeValue
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/tagBorder
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/tagName
+[2020-01-10 16:39:23] Performing Preference /instance/org.eclipse.wst.xml.ui/xmlContent
+[2020-01-10 16:39:24] 
+[2020-01-10 16:46:01] Executing startup tasks
+[2020-01-10 16:46:02] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2020-01-10 16:46:02] Product self.product.version
+[2020-01-10 16:46:02] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2020-01-10 16:46:02] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-10 16:46:02] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-10 16:46:02] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_background
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_foreground
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_background
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_foreground
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataBorder
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataText
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/commentBorder
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/commentText
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalId
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalPubref
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExtrenalSysref
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeName
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/entityReference
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/piBorder
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/piContent
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeEquals
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeName
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeValue
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/tagBorder
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/tagName
+[2020-01-10 16:46:02] Performing Preference /instance/org.eclipse.wst.xml.ui/xmlContent
+[2020-01-10 16:46:02] 
+[2020-01-13 12:53:09] Executing startup tasks
+[2020-01-13 12:53:10] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2020-01-13 12:53:10] Product self.product.version
+[2020-01-13 12:53:10] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2020-01-13 12:53:10] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-13 12:53:10] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-13 12:53:10] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_background
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_foreground
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_background
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_foreground
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataBorder
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataText
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/commentBorder
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/commentText
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalId
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalPubref
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExtrenalSysref
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeName
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/entityReference
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/piBorder
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/piContent
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeEquals
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeName
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeValue
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/tagBorder
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/tagName
+[2020-01-13 12:53:10] Performing Preference /instance/org.eclipse.wst.xml.ui/xmlContent
+[2020-01-13 12:53:10] 
+[2020-01-13 13:27:50] Executing startup tasks
+[2020-01-13 13:27:51] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2020-01-13 13:27:51] Product self.product.version
+[2020-01-13 13:27:51] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2020-01-13 13:27:51] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-13 13:27:51] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-13 13:27:51] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_background
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_foreground
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_background
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_foreground
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataBorder
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataText
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/commentBorder
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/commentText
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalId
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalPubref
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExtrenalSysref
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeName
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/entityReference
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/piBorder
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/piContent
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeEquals
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeName
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeValue
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/tagBorder
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/tagName
+[2020-01-13 13:27:51] Performing Preference /instance/org.eclipse.wst.xml.ui/xmlContent
+[2020-01-13 13:27:51] 
+[2020-01-13 14:08:56] Executing startup tasks
+[2020-01-13 14:08:56] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2020-01-13 14:08:56] Product self.product.version
+[2020-01-13 14:08:56] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2020-01-13 14:08:56] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-13 14:08:56] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-13 14:08:56] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_background
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_foreground
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_background
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_foreground
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataBorder
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataText
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/commentBorder
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/commentText
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalId
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalPubref
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExtrenalSysref
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeName
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/entityReference
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/piBorder
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/piContent
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeEquals
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeName
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeValue
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/tagBorder
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/tagName
+[2020-01-13 14:08:56] Performing Preference /instance/org.eclipse.wst.xml.ui/xmlContent
+[2020-01-13 14:08:56] 
+[2020-01-13 14:38:13] Executing startup tasks
+[2020-01-13 14:38:14] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2020-01-13 14:38:14] Product self.product.version
+[2020-01-13 14:38:14] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2020-01-13 14:38:14] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-13 14:38:14] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-13 14:38:14] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2020-01-13 14:38:14] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_background
+[2020-01-13 14:38:14] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_foreground
+[2020-01-13 14:38:14] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_background
+[2020-01-13 14:38:14] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_foreground
+[2020-01-13 14:38:14] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataBorder
+[2020-01-13 14:38:14] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataText
+[2020-01-13 14:38:15] Performing Preference /instance/org.eclipse.wst.xml.ui/commentBorder
+[2020-01-13 14:38:15] Performing Preference /instance/org.eclipse.wst.xml.ui/commentText
+[2020-01-13 14:38:15] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalId
+[2020-01-13 14:38:15] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalPubref
+[2020-01-13 14:38:15] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExtrenalSysref
+[2020-01-13 14:38:15] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeName
+[2020-01-13 14:38:15] Performing Preference /instance/org.eclipse.wst.xml.ui/entityReference
+[2020-01-13 14:38:15] Performing Preference /instance/org.eclipse.wst.xml.ui/piBorder
+[2020-01-13 14:38:15] Performing Preference /instance/org.eclipse.wst.xml.ui/piContent
+[2020-01-13 14:38:15] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeEquals
+[2020-01-13 14:38:15] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeName
+[2020-01-13 14:38:15] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeValue
+[2020-01-13 14:38:15] Performing Preference /instance/org.eclipse.wst.xml.ui/tagBorder
+[2020-01-13 14:38:15] Performing Preference /instance/org.eclipse.wst.xml.ui/tagName
+[2020-01-13 14:38:15] Performing Preference /instance/org.eclipse.wst.xml.ui/xmlContent
+[2020-01-13 14:38:15] 
+[2020-01-14 16:12:34] Executing startup tasks
+[2020-01-14 16:12:35] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2020-01-14 16:12:35] Product self.product.version
+[2020-01-14 16:12:35] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2020-01-14 16:12:35] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-14 16:12:35] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-14 16:12:35] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2020-01-14 16:12:35] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_background
+[2020-01-14 16:12:35] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_foreground
+[2020-01-14 16:12:35] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_background
+[2020-01-14 16:12:35] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_foreground
+[2020-01-14 16:12:35] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataBorder
+[2020-01-14 16:12:35] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataText
+[2020-01-14 16:12:35] Performing Preference /instance/org.eclipse.wst.xml.ui/commentBorder
+[2020-01-14 16:12:35] Performing Preference /instance/org.eclipse.wst.xml.ui/commentText
+[2020-01-14 16:12:35] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalId
+[2020-01-14 16:12:35] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalPubref
+[2020-01-14 16:12:36] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExtrenalSysref
+[2020-01-14 16:12:36] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeName
+[2020-01-14 16:12:36] Performing Preference /instance/org.eclipse.wst.xml.ui/entityReference
+[2020-01-14 16:12:36] Performing Preference /instance/org.eclipse.wst.xml.ui/piBorder
+[2020-01-14 16:12:36] Performing Preference /instance/org.eclipse.wst.xml.ui/piContent
+[2020-01-14 16:12:36] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeEquals
+[2020-01-14 16:12:36] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeName
+[2020-01-14 16:12:36] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeValue
+[2020-01-14 16:12:36] Performing Preference /instance/org.eclipse.wst.xml.ui/tagBorder
+[2020-01-14 16:12:36] Performing Preference /instance/org.eclipse.wst.xml.ui/tagName
+[2020-01-14 16:12:36] Performing Preference /instance/org.eclipse.wst.xml.ui/xmlContent
+[2020-01-14 16:12:36] 
+[2020-01-14 18:34:15] Executing startup tasks
+[2020-01-14 18:34:16] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2020-01-14 18:34:16] Product self.product.version
+[2020-01-14 18:34:16] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2020-01-14 18:34:16] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-14 18:34:16] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-01-14 18:34:16] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_background
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_foreground
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_background
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_foreground
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataBorder
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataText
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/commentBorder
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/commentText
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalId
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalPubref
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExtrenalSysref
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeName
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/entityReference
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/piBorder
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/piContent
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeEquals
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeName
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeValue
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/tagBorder
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/tagName
+[2020-01-14 18:34:16] Performing Preference /instance/org.eclipse.wst.xml.ui/xmlContent
+[2020-01-14 18:34:16] 
+[2020-02-05 14:49:18] Executing startup tasks
+[2020-02-05 14:49:18] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2020-02-05 14:49:18] Product self.product.version
+[2020-02-05 14:49:18] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2020-02-05 14:49:18] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-02-05 14:49:18] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-02-05 14:49:18] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_background
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_foreground
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_background
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_foreground
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataBorder
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataText
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/commentBorder
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/commentText
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalId
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalPubref
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExtrenalSysref
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeName
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/entityReference
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/piBorder
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/piContent
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeEquals
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeName
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeValue
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/tagBorder
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/tagName
+[2020-02-05 14:49:19] Performing Preference /instance/org.eclipse.wst.xml.ui/xmlContent
+[2020-02-05 14:49:19] 
+[2020-02-05 14:54:27] Executing startup tasks
+[2020-02-05 14:54:27] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2020-02-05 14:54:27] Product self.product.version
+[2020-02-05 14:54:27] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2020-02-05 14:54:27] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-02-05 14:54:27] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-02-05 14:54:27] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_background
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_foreground
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_background
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_foreground
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataBorder
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataText
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.xml.ui/commentBorder
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.xml.ui/commentText
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalId
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalPubref
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExtrenalSysref
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeName
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.xml.ui/entityReference
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.xml.ui/piBorder
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.xml.ui/piContent
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeEquals
+[2020-02-05 14:54:27] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeName
+[2020-02-05 14:54:28] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeValue
+[2020-02-05 14:54:28] Performing Preference /instance/org.eclipse.wst.xml.ui/tagBorder
+[2020-02-05 14:54:28] Performing Preference /instance/org.eclipse.wst.xml.ui/tagName
+[2020-02-05 14:54:28] Performing Preference /instance/org.eclipse.wst.xml.ui/xmlContent
+[2020-02-05 14:54:28] 
+[2020-02-05 14:57:31] Executing startup tasks
+[2020-02-05 14:57:31] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2020-02-05 14:57:31] Product self.product.version
+[2020-02-05 14:57:31] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2020-02-05 14:57:31] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-02-05 14:57:31] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-02-05 14:57:31] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2020-02-05 14:57:32] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_background
+[2020-02-05 14:57:32] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_foreground
+[2020-02-05 14:57:32] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_background
+[2020-02-05 14:57:32] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_foreground
+[2020-02-05 14:57:32] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataBorder
+[2020-02-05 14:57:32] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataText
+[2020-02-05 14:57:32] Performing Preference /instance/org.eclipse.wst.xml.ui/commentBorder
+[2020-02-05 14:57:32] Performing Preference /instance/org.eclipse.wst.xml.ui/commentText
+[2020-02-05 14:57:32] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalId
+[2020-02-05 14:57:32] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalPubref
+[2020-02-05 14:57:32] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExtrenalSysref
+[2020-02-05 14:57:32] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeName
+[2020-02-05 14:57:33] Performing Preference /instance/org.eclipse.wst.xml.ui/entityReference
+[2020-02-05 14:57:33] Performing Preference /instance/org.eclipse.wst.xml.ui/piBorder
+[2020-02-05 14:57:33] Performing Preference /instance/org.eclipse.wst.xml.ui/piContent
+[2020-02-05 14:57:33] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeEquals
+[2020-02-05 14:57:33] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeName
+[2020-02-05 14:57:33] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeValue
+[2020-02-05 14:57:33] Performing Preference /instance/org.eclipse.wst.xml.ui/tagBorder
+[2020-02-05 14:57:33] Performing Preference /instance/org.eclipse.wst.xml.ui/tagName
+[2020-02-05 14:57:33] Performing Preference /instance/org.eclipse.wst.xml.ui/xmlContent
+[2020-02-05 14:57:33] 
+[2020-02-05 15:46:07] Executing startup tasks
+[2020-02-05 15:46:07] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2020-02-05 15:46:07] Product self.product.version
+[2020-02-05 15:46:07] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2020-02-05 15:46:07] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-02-05 15:46:07] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-02-05 15:46:07] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_background
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_foreground
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_background
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_foreground
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataBorder
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataText
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/commentBorder
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/commentText
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalId
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalPubref
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExtrenalSysref
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeName
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/entityReference
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/piBorder
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/piContent
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeEquals
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeName
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeValue
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/tagBorder
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/tagName
+[2020-02-05 15:46:07] Performing Preference /instance/org.eclipse.wst.xml.ui/xmlContent
+[2020-02-05 15:46:07] 
+[2020-02-05 17:40:57] Executing startup tasks
+[2020-02-05 17:40:57] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2020-02-05 17:40:57] Product self.product.version
+[2020-02-05 17:40:57] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2020-02-05 17:40:57] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-02-05 17:40:57] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-02-05 17:40:57] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_background
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_foreground
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_background
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_foreground
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataBorder
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataText
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/commentBorder
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/commentText
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalId
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalPubref
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExtrenalSysref
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeName
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/entityReference
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/piBorder
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/piContent
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeEquals
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeName
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeValue
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/tagBorder
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/tagName
+[2020-02-05 17:40:57] Performing Preference /instance/org.eclipse.wst.xml.ui/xmlContent
+[2020-02-05 17:40:58] 
+[2020-02-07 08:58:22] Executing startup tasks
+[2020-02-07 08:58:22] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2020-02-07 08:58:22] Product self.product.version
+[2020-02-07 08:58:22] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2020-02-07 08:58:22] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-02-07 08:58:22] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-02-07 08:58:22] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2020-02-07 08:58:22] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_background
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_foreground
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_background
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_foreground
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataBorder
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataText
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/commentBorder
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/commentText
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalId
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalPubref
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExtrenalSysref
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeName
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/entityReference
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/piBorder
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/piContent
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeEquals
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeName
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeValue
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/tagBorder
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/tagName
+[2020-02-07 08:58:23] Performing Preference /instance/org.eclipse.wst.xml.ui/xmlContent
+[2020-02-07 08:58:23] 
+[2020-02-07 14:50:26] Executing startup tasks
+[2020-02-07 14:50:27] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2020-02-07 14:50:27] Product self.product.version
+[2020-02-07 14:50:27] Workspace /Users/Daniel/Documents/Eclipse/runtime-EclipseXtext
+[2020-02-07 14:50:27] Bundle org.eclipse.oomph.setup 1.12.0.v20190206-0943, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-02-07 14:50:27] Bundle org.eclipse.oomph.setup.core 1.12.0.v20190206-0651, build=3895, branch=a662e867f63d5b59dd0935621f30827543b3c0bb
+[2020-02-07 14:50:27] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_background
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_parameters_foreground
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_background
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.sse.ui/content_assist_proposals_foreground
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataBorder
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/cdataText
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/commentBorder
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/commentText
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalId
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExternalPubref
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeExtrenalSysref
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/doctypeName
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/entityReference
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/piBorder
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/piContent
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeEquals
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeName
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/tagAttributeValue
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/tagBorder
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/tagName
+[2020-02-07 14:50:27] Performing Preference /instance/org.eclipse.wst.xml.ui/xmlContent
+[2020-02-07 14:50:27] 

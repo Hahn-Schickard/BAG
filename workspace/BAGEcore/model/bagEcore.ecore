@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="bagEcore" nsURI="http://www.bag.org/bagEcore" nsPrefix="bagEcore">
+  <eClassifiers xsi:type="ecore:EClass" name="App">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sensor" lowerBound="1"
+        eType="#//Sensor" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="macfilter" eType="#//MacFilter"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="namefilter" eType="#//NameFilter"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="packageName" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Sensor">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="service" lowerBound="1"
+        upperBound="-1" eType="#//Service" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MacFilter">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="macaddress" lowerBound="1"
+        upperBound="-1" eType="#//MacAddress" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MacAddress">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="address" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Characteristic">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="uuid" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="dataType" lowerBound="1"
+        eType="#//DataType" defaultValueLiteral="Float"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="unit" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="read" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        defaultValueLiteral="false"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="write" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        defaultValueLiteral="false"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="notification" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean" defaultValueLiteral="false"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="uielement" eType="#//UiElement"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NameFilter">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" lowerBound="1" eType="#//NameExpression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NameExpression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="regEx" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="DataType">
+    <eLiterals name="Float"/>
+    <eLiterals name="Double" value="1"/>
+    <eLiterals name="Integer" value="2"/>
+    <eLiterals name="String" value="3"/>
+    <eLiterals name="Bytes" value="4"/>
+    <eLiterals name="Byte" value="5"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Service">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="characteristic" lowerBound="1"
+        upperBound="-1" eType="#//Characteristic" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="uuid" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UiElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="label" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+</ecore:EPackage>
