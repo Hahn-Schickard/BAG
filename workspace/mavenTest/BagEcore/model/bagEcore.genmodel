@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/BagEcore/src-gen" creationIcons="false" editDirectory="/BagEcore.edit/src-gen"
+    editorDirectory="/BagEcore.editor/src-gen" modelPluginID="BagEcore" modelName="BagEcore"
+    editPluginClass="bag.model.bagEcore.provider.BagEcoreEditPlugin" editorPluginClass="bag.model.bagEcore.presentation.BagEcoreEditorPlugin"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    testSuiteClass="bag.model.bagEcore.tests.BagEcoreAllTests" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="8.0" copyrightFields="false" editPluginID="BagEcore.edit" editorPluginID="BagEcore.editor"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>bagEcore.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="BagEcore" basePackage="bag.model" disposableProviderFactory="true"
+      ecorePackage="bagEcore.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="bagEcore.ecore#//DataType">
+      <genEnumLiterals ecoreEnumLiteral="bagEcore.ecore#//DataType/Float"/>
+      <genEnumLiterals ecoreEnumLiteral="bagEcore.ecore#//DataType/Double"/>
+      <genEnumLiterals ecoreEnumLiteral="bagEcore.ecore#//DataType/Integer"/>
+      <genEnumLiterals ecoreEnumLiteral="bagEcore.ecore#//DataType/String"/>
+      <genEnumLiterals ecoreEnumLiteral="bagEcore.ecore#//DataType/Bytes"/>
+      <genEnumLiterals ecoreEnumLiteral="bagEcore.ecore#//DataType/Byte"/>
+    </genEnums>
+    <genClasses ecoreClass="bagEcore.ecore#//App">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//App/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference bagEcore.ecore#//App/sensor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference bagEcore.ecore#//App/macfilter"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference bagEcore.ecore#//App/namefilter"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//App/packageName"/>
+    </genClasses>
+    <genClasses ecoreClass="bagEcore.ecore#//Sensor">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//Sensor/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference bagEcore.ecore#//Sensor/service"/>
+    </genClasses>
+    <genClasses ecoreClass="bagEcore.ecore#//MacFilter">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference bagEcore.ecore#//MacFilter/macaddress"/>
+    </genClasses>
+    <genClasses ecoreClass="bagEcore.ecore#//MacAddress">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//MacAddress/address"/>
+    </genClasses>
+    <genClasses ecoreClass="bagEcore.ecore#//Characteristic">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//Characteristic/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//Characteristic/uuid"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//Characteristic/dataType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//Characteristic/unit"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//Characteristic/read"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//Characteristic/write"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//Characteristic/notification"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference bagEcore.ecore#//Characteristic/uielement"/>
+    </genClasses>
+    <genClasses ecoreClass="bagEcore.ecore#//NameFilter">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference bagEcore.ecore#//NameFilter/name"/>
+    </genClasses>
+    <genClasses ecoreClass="bagEcore.ecore#//NameExpression">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//NameExpression/regEx"/>
+    </genClasses>
+    <genClasses ecoreClass="bagEcore.ecore#//Service">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//Service/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference bagEcore.ecore#//Service/characteristic"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//Service/uuid"/>
+    </genClasses>
+    <genClasses ecoreClass="bagEcore.ecore#//UiElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//UiElement/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//UiElement/label"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bagEcore.ecore#//UiElement/description"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

@@ -1,0 +1,47 @@
+/**
+ */
+package bag.model.bagEcore;
+
+import org.eclipse.emf.ecore.EObject;
+
+/**
+ * <!-- begin-user-doc -->
+ * A representation of the model object '<em><b>Name Expression</b></em>'.
+ * <!-- end-user-doc -->
+ *
+ * <p>
+ * The following features are supported:
+ * </p>
+ * <ul>
+ *   <li>{@link bag.model.bagEcore.NameExpression#getRegEx <em>Reg Ex</em>}</li>
+ * </ul>
+ *
+ * @see bag.model.bagEcore.BagEcorePackage#getNameExpression()
+ * @model
+ * @generated
+ */
+public interface NameExpression extends EObject
+{
+	/**
+	 * Returns the value of the '<em><b>Reg Ex</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Reg Ex</em>' attribute.
+	 * @see #setRegEx(String)
+	 * @see bag.model.bagEcore.BagEcorePackage#getNameExpression_RegEx()
+	 * @model required="true"
+	 * @generated
+	 */
+	String getRegEx();
+
+	/**
+	 * Sets the value of the '{@link bag.model.bagEcore.NameExpression#getRegEx <em>Reg Ex</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Reg Ex</em>' attribute.
+	 * @see #getRegEx()
+	 * @generated
+	 */
+	void setRegEx(String value);
+
+} // NameExpression

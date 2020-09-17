@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: bag.dsl
+Bundle-SymbolicName: bag.dsl; singleton:=true
+Export-Package: bag.dsl.parser.antlr.internal,bag.dsl.validation,bag.d
+ sl.services,bag.dsl.scoping,bag.dsl,bag.dsl.formatting2,bag.dsl.seria
+ lizer,bag.dsl.parser.antlr,bag.dsl.generator
+Bundle-Name: bag.dsl
+Bundle-Version: 1.0.0.202009161129
+Require-Bundle: BagEcore,org.eclipse.xtext,org.eclipse.xtext.xbase,org
+ .eclipse.equinox.common;bundle-version="3.5.0",org.eclipse.xtext.xbas
+ e.lib;bundle-version="2.14.0",org.eclipse.xtext.util,org.antlr.runtim
+ e;bundle-version="[3.2.0,3.2.1)"
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: My Company
+Import-Package: org.apache.log4j
+

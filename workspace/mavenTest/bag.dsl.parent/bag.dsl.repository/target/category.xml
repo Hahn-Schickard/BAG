@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="bag.dsl.feature">
+      <category name="BAG"/>
+   </feature>
+   <category-def name="BAG" label="BAG"/>
+</site>

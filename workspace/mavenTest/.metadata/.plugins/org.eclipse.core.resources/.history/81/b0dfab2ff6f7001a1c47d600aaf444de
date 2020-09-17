@@ -1,0 +1,136 @@
+/**
+ */
+package example.appEcore.appEcore.impl;
+
+import java.util.Collection;
+
+import org.eclipse.emf.common.util.EList;
+
+import org.eclipse.emf.ecore.EClass;
+
+import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
+
+import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+
+import bag.bagEcore.bagEcore.AppEcorePackage;
+import bag.bagEcore.bagEcore.Filter;
+import bag.bagEcore.bagEcore.MacAddress;
+
+/**
+ * <!-- begin-user-doc -->
+ * An implementation of the model object '<em><b>Filter</b></em>'.
+ * <!-- end-user-doc -->
+ * <p>
+ * The following features are implemented:
+ * </p>
+ * <ul>
+ *   <li>{@link bag.bagEcore.bagEcore.impl.FilterImpl#getMacaddress <em>Macaddress</em>}</li>
+ * </ul>
+ *
+ * @generated
+ */
+public class FilterImpl extends MinimalEObjectImpl.Container implements Filter {
+	/**
+	 * The cached value of the '{@link #getMacaddress() <em>Macaddress</em>}' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getMacaddress()
+	 * @generated
+	 * @ordered
+	 */
+	protected EList<MacAddress> macaddress;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected FilterImpl() {
+		super();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected EClass eStaticClass() {
+		return AppEcorePackage.Literals.FILTER;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EList<MacAddress> getMacaddress() {
+		if (macaddress == null) {
+			macaddress = new EObjectResolvingEList<MacAddress>(MacAddress.class, this,
+					AppEcorePackage.FILTER__MACADDRESS);
+		}
+		return macaddress;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+		switch (featureID) {
+		case AppEcorePackage.FILTER__MACADDRESS:
+			return getMacaddress();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@SuppressWarnings("unchecked")
+	@Override
+	public void eSet(int featureID, Object newValue) {
+		switch (featureID) {
+		case AppEcorePackage.FILTER__MACADDRESS:
+			getMacaddress().clear();
+			getMacaddress().addAll((Collection<? extends MacAddress>) newValue);
+			return;
+		}
+		super.eSet(featureID, newValue);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public void eUnset(int featureID) {
+		switch (featureID) {
+		case AppEcorePackage.FILTER__MACADDRESS:
+			getMacaddress().clear();
+			return;
+		}
+		super.eUnset(featureID);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public boolean eIsSet(int featureID) {
+		switch (featureID) {
+		case AppEcorePackage.FILTER__MACADDRESS:
+			return macaddress != null && !macaddress.isEmpty();
+		}
+		return super.eIsSet(featureID);
+	}
+
+} //FilterImpl

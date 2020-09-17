@@ -1,0 +1,5 @@
+package bag.dsl.generator
+
+class AndroidGenerator {
+	
+}

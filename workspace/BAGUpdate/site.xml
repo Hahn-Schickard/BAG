@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature url="features/BAGFeature_1.0.0.202009110912.jar" id="BAGFeature" version="1.0.0.202009110912">
-      <category name="BAG"/>
-   </feature>
-   <category-def name="BAG" label="BAG"/>
-</site>
