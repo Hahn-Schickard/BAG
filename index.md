@@ -1,12 +1,12 @@
-This project consisting of the "Ecore Diagramm Editor", "EMF - Eclipse Modeling Framework" and "Xtext" represents a self made domain specific language with an integrated code generator for mobile applications which communicate with bluetooth low energy devices. With the defined domain specifig language inside this project you are able to describe the behaviour and functionality of a bluetooth low energy device. After describing the device the corresponding code for an Android and iOS application will be generated. The generated code implements the necessary bluetooth low energy functionality for the communication between the application and the device. There is also the possibility to define if there should also be an user interface generated or not. 
+This project consisting of the <b>Ecore Diagramm Editor</b>, <b>EMF - Eclipse Modeling Framework</b> and <b>Xtext</b> represents a self made domain specific language with an integrated code generator for mobile applications which communicate with bluetooth low energy devices. With the defined domain specifig language inside this project you are able to describe the behaviour and functionality of a bluetooth low energy device. After describing the device the corresponding code for an Android and iOS application will be generated. The generated code implements the necessary bluetooth low energy functionality for the communication between the application and the device. There is also the possibility to define if there should also be an user interface generated or not. 
 
 ## IDE Setup
 
 1. Download the current version of the Eclipse Installer here: https://www.eclipse.org/downloads/
-2. Install the "Eclipse IDE for Java Developers"
+2. Install the <b>Eclipse IDE for Java Developers</b>
 3. After successfully installing the Eclipse IDE you can import the "BAG" library.
 
-## Import of the "BAG" library
+## Import of the BAG library
 
 For using the library you have two options. Option one is for developer who want to edit or view the underlying code and the projects defining the domain specific language. Option two is for users who only want to use the defined domain specific language for generating the corresponding code.
 
