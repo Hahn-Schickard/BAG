@@ -54,7 +54,7 @@ Here is an example of such an instance:
 	<img src="images/02_DSL_Example.PNG">
 </p>
 
-In this example the application is called <b>Tutorial App</b> and the package name is defined as "com.example". The "Sensor" element is named "TutorialSensor" and there is one "Service" element added with the name "Tutorial Service". The "uuid" of the "Service" is "0003cbbb-0000-1000-8000-00805f9b0131". The "Service" element has only one "Characteristic" element named "TutorialCharacteristic". The "uuid" of the "Characteristic" is "c0680e1b-18bc-4645-aa8e-62f47d20f637", the "dataType" is set to "Float", the "read" and "write" options are set to true and the "notification" option is set to "false". There is also one "UiElement" added to the "Characteristic" element leading to the creation of ui elements for that "Characteristic". In the last few lines there is a "MacFilter" with the two example MAC-addresses "11:22:33:44:55:66" and "77:88:99:11:22:33" defined and a "NameFilter" with the expression "BLE". In this example the application would only list bluetooth low energy devices matching the defined MAC-addresses and the defined "NameFilter".
+In this example the application is called <b>Tutorial App</b> and the package name is defined as <b>com.example</b>. The <b>Sensor</b> element is named <b>TutorialSensor</b> and there is one <b>Service</b> element added with the name <b>Tutorial Service</b>. The <b>uuid</b> of the <b>Service</b> is <b>0003cbbb-0000-1000-8000-00805f9b0131</b>. The <b>Service</b> element has only one <b>Characteristic</b> element named <b>TutorialCharacteristic</b>. The <b>uuid</b> of the <b>Characteristic</b> is <b>c0680e1b-18bc-4645-aa8e-62f47d20f637</b>, the <b>dataType</b> is set to <b>Float</b>, the <b>read</b> and <b>write</b> options are set to <b>true</b> and the <b>notification</b> option is set to <b>false</b>. There is also one <b>UiElement</b> added to the <b>Characteristic</b> element leading to the creation of ui elements for that <b>Characteristic</b>. In the last few lines there is a <b>MacFilter</b> with the two example MAC-addresses <b>11:22:33:44:55:66</b> and <b>77:88:99:11:22:33</b> defined and a <b>NameFilter</b> with the expression <b>BLE</b>. In this example the application would only list bluetooth low energy devices matching the defined MAC-addresses and the defined <b>NameFilter</b>.
 
 After saving the domain specific language file (.bag) the following structure should be generated:
 
@@ -70,18 +70,18 @@ You can see there is a folder created with the name of the application. There is
 
 <b>BLEManager.swift</b>
 
-Inside the "didUpdateValueFor"-method there is a TODO-statement for every defined characteristic. At this point you can add your own code to handle the received data and do a conversion of the incoming data if needed. In the generated code version the first byte of the incoming data is used.
+Inside the <b>didUpdateValueFor</b>-method there is a TODO-statement for every defined characteristic. At this point you can add your own code to handle the received data and do a conversion of the incoming data if needed. In the generated code version the first byte of the incoming data is used.
 
 <b>ViewController.swift</b>
 
-If you have defined characteristics with the write-option set to true and also decided to create an ui-element, than you can add your own code inside the "writeTextField..."-methods. There is a TODO-statement where you can add code to receive the input from the corresponding TextField and convert it if necessary.
+If you have defined characteristics with the write-option set to true and also decided to create an ui-element, than you can add your own code inside the <b>writeTextField...</b>-methods. There is a TODO-statement where you can add code to receive the input from the corresponding TextField and convert it if necessary.
 
 ### Android
 
 <b>DataStruct.java</b>
 
-Inside every "set"-method there is a TODO-statement. At this point you can add your own code to handle the received data and do a conversion of the incoming data if needed. In the generated code version the first byte of the incoming data is used.
+Inside every <b>set</b>-method there is a TODO-statement. At this point you can add your own code to handle the received data and do a conversion of the incoming data if needed. In the generated code version the first byte of the incoming data is used.
 
 <b>Helper.java</b>
 
-In every "writeCharacteristic"-method there is a TODO-statement. At this point you can add your own conversion method or adjust the already existing ones.
+In every <b>writeCharacteristic</b>-method there is a TODO-statement. At this point you can add your own conversion method or adjust the already existing ones.
