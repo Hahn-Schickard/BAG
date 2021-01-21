@@ -39,14 +39,14 @@ For using the library you have two options. Option one is for developer who want
 
 After successfully creating a project, like described above, you can use the domain specific language. The domain specific language consists of keywords and brackets like <b>{</b> and <b>}</b>. The editor in which you are using the domain specific language supports auto completion (by pressing Ctrl + Spacebar) and gives you feedback when something is missing or a wrong input has been done.
 
-1. With the keyword <b>App</b> you create the main element of the application. This element needs a name defined like this "\<name\>". For the "App" element and every other element you need to open "{" and close "}" these brackets.
-2. Inside the "App" element you need to declare the package name of the application by using the "packageName" attribute and defining its value like this "\<packageName\>".
-3. Also inside the "App" element you need to create an "Sensor" element. The "Sensor" element needs a name defined like this "\<name\>" and you need to open and close the typical element brackets "{" "}".
-4. Inside of the "Sensor" element you need to create at least one (you can create as much as you want) "Service" element. An "Service" element needs a name defined like this "\<name\>" and you need to open and close the typical element brackets. 
-5. An "Service" element has an attribute called "uuid" which is defined like this "\<uuid\>".
-6. Also there needs to be at least one "Characteristic" element created inside the "Service" element.
-7. An "Characteristic" element has an "uuid"-, "dataType"-, "read"-, "write"- and "notification"-attribute. There is also the possibility to add an "UiElement" element to define if an provisionally ui element should be created for it.
-8. Finally you can add an "MacFilter"- and an "NameFilter" element inside the "App" element to enable the corresponding feature.
+1. With the keyword <b>App</b> you create the main element of the application. This element needs a name defined like this <b>"\<name\>"</b>. For the <b>App</b> element and every other element you need to open <b>{</b> and close <b>}</b> these brackets.
+2. Inside the <b>App</b> element you need to declare the package name of the application by using the <b>packageName</b> attribute and defining its value like this <b>"\<packageName\>"</b>.
+3. Also inside the <b>App</b> element you need to create an <b>Sensor</b> element. The <b>Sensor</b> element needs a name defined like this <b>"\<name\>"</b> and you need to open and close the typical element brackets <b>{ }</b>.
+4. Inside of the <b>Sensor</b> element you need to create at least one (you can create as much as you want) <b>Service</b> element. An <b>Service</b> element needs a name defined like this <b>"\<name\>"</b> and you need to open and close the typical element brackets. 
+5. An <b>Service</b> element has an attribute called <b>uuid</b> which is defined like this <b>"\<uuid\>"</b>.
+6. Also there needs to be at least one <b>Characteristic</b> element created inside the <b>Service</b> element.
+7. An <b>Characteristic</b> element has an <b>uuid</b>-, <b>dataType</b>-, <b>read</b>-, <b>write</b>- and <b>notification</b>-attribute. There is also the possibility to add an <b>UiElement</b> element to define if an provisionally ui element should be created for it.
+8. Finally you can add an <b>MacFilter</b>- and an <b>NameFilter</b>-element inside the <b>App</b> element to enable the corresponding feature.
 
 Here is an example of such an instance:
 
@@ -54,7 +54,7 @@ Here is an example of such an instance:
 	<img src="images/02_DSL_Example.PNG">
 </p>
 
-In this example the application is called "Tutorial App" and the package name is defined as "com.example". The "Sensor" element is named "TutorialSensor" and there is one "Service" element added with the name "Tutorial Service". The "uuid" of the "Service" is "0003cbbb-0000-1000-8000-00805f9b0131". The "Service" element has only one "Characteristic" element named "TutorialCharacteristic". The "uuid" of the "Characteristic" is "c0680e1b-18bc-4645-aa8e-62f47d20f637", the "dataType" is set to "Float", the "read" and "write" options are set to true and the "notification" option is set to "false". There is also one "UiElement" added to the "Characteristic" element leading to the creation of ui elements for that "Characteristic". In the last few lines there is a "MacFilter" with the two example MAC-addresses "11:22:33:44:55:66" and "77:88:99:11:22:33" defined and a "NameFilter" with the expression "BLE". In this example the application would only list bluetooth low energy devices matching the defined MAC-addresses and the defined "NameFilter".
+In this example the application is called <b>Tutorial App</b> and the package name is defined as "com.example". The "Sensor" element is named "TutorialSensor" and there is one "Service" element added with the name "Tutorial Service". The "uuid" of the "Service" is "0003cbbb-0000-1000-8000-00805f9b0131". The "Service" element has only one "Characteristic" element named "TutorialCharacteristic". The "uuid" of the "Characteristic" is "c0680e1b-18bc-4645-aa8e-62f47d20f637", the "dataType" is set to "Float", the "read" and "write" options are set to true and the "notification" option is set to "false". There is also one "UiElement" added to the "Characteristic" element leading to the creation of ui elements for that "Characteristic". In the last few lines there is a "MacFilter" with the two example MAC-addresses "11:22:33:44:55:66" and "77:88:99:11:22:33" defined and a "NameFilter" with the expression "BLE". In this example the application would only list bluetooth low energy devices matching the defined MAC-addresses and the defined "NameFilter".
 
 After saving the domain specific language file (.bag) the following structure should be generated:
 
