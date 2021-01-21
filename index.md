@@ -2,9 +2,9 @@ This project consisting of the <b>Ecore Diagramm Editor</b>, <b>EMF - Eclipse Mo
 
 ## IDE Setup
 
-1. Download the current version of the Eclipse Installer here: https://www.eclipse.org/downloads/
+1. Download the current version of the Eclipse Installer <a href="https://www.eclipse.org/downloads/">here</a>
 2. Install the <b>Eclipse IDE for Java Developers</b>
-3. After successfully installing the Eclipse IDE you can import the "BAG" library.
+3. After successfully installing the Eclipse IDE you can import the <b>BAG</b> library.
 
 ## Import of the BAG library
 
@@ -12,34 +12,34 @@ For using the library you have two options. Option one is for developer who want
 
 ### Option 1: User
 
-1. Download "BAG_user.zip"
-2. Inside the Eclipe IDE select "Help" -> "Install New Software..." -> "Add" -> "Archive" and choose the downloaded zip file
+1. Download <b>BAG_user.zip</b>
+2. Inside the Eclipe IDE select <b>Help</b> -> <b>Install New Software...</b> -> <b>Add</b> -> <b>Archive</b> and choose the downloaded zip file
 3. Install the plugin and restart the Eclipse IDE
-4. Create a new general project via "File" -> "New" -> "Project"
-5. Create a textfile inside the project with ".bag" as the extension
-6. Accept the question if the project should be converted into an xtext project with "Yes"
-7. Inside the ".bag" file you can describe your bluetooth low energy device and its corresponding features. By saving this file the code for an Android and iOS application will be generated in the appearing "src-gen" folder
+4. Create a new general project via <b>File</b> -> <b>New</b> -> <b>Project</b>
+5. Create a textfile inside the project with <b>.bag</b> as the extension
+6. Accept the question if the project should be converted into an xtext project with <b>Yes</b>
+7. Inside the <b>.bag</b> file you can describe your bluetooth low energy device and its corresponding features. By saving this file the code for an Android and iOS application will be generated in the appearing <b>src-gen</b> folder
 
 ### Option 2: Developer
 
 1. After the installation of the Eclipse IDE you need to install the necessary additional libraries inside the Eclipse IDE:
-	1. Select "Help" -> "Install New Software..." choose "All available sites" in the "Work with" field and search for the libraries.
-	2. "Ecore Diagramm Editor (SDK)"
-	3. "EMF - Eclipse Modeling Framework SDK"
-	4. "Xtext Complete SDK"
-2. Download "BAG_developer.zip" or clone the repository
-3. Inside the Eclipse IDE select "File" -> "Import..." -> "General" -> "Achrive File" and choose the downloaded zip file
-4. After successfully importing the project you can use the "BAG" library
+	1. Select <b>Help</b> -> <b>Install New Software...</b> choose <b>All available sites</b> in the <b>Work with</b> field and search for the libraries.
+	2. <b>Ecore Diagramm Editor (SDK)</b>
+	3. <b>EMF - Eclipse Modeling Framework SDK</b>
+	4. <b>Xtext Complete SDK</b>
+2. Download <b>BAG_developer.zip</b> or clone the repository
+3. Inside the Eclipse IDE select <b>File</b> -> <b>Import...</b> -> <b>General</b> -> <b>Achrive File</b> and choose the downloaded zip file
+4. After successfully importing the project you can use the <b>BAG</b> library
 5. If there are any errors displayed you need to edit some settings
-	1. Open "Window" -> "Preferences" -> "Target Platform" -> "Running platform (active)" and choose "Edit"
-	2. In the "Environment" tab edit the "Operating System" and "Windowing System" regarding your installed operating system
-	3. E.g. for Windows you have to select "Win32" and "x86_64" for "Architecture"
+	1. Open <b>Window</b> -> <b>Preferences</b> -> <b>Target Platform</b> -> <b>Running platform (active)</b> and choose <b>Edit</b>
+	2. In the <b>Environment</b> tab edit the <b>Operating System</b> and <b>Windowing System</b> regarding your installed operating system
+	3. E.g. for Windows you have to select <b>Win32</b> and <b>x86_64</b> as <b>Architecture</b>
 
 ## Usage of the project and its domain specific language
 
-After successfully creating a project, like described above, you can use the domain specific language. The domain specific language consists of keywords and brackets like "{" and "}". The editor in which you are using the domain specific language supports auto completion (by pressing Ctrl + Spacebar) and gives you feedback when something is missing or a wrong input has been done.
+After successfully creating a project, like described above, you can use the domain specific language. The domain specific language consists of keywords and brackets like <b>{</b> and <b>}</b>. The editor in which you are using the domain specific language supports auto completion (by pressing Ctrl + Spacebar) and gives you feedback when something is missing or a wrong input has been done.
 
-1. With the keyword "App" you create the main element of the application. This element needs a name defined like this "\<name\>". For the "App" element and every other element you need to open "{" and close "}" these brackets.
+1. With the keyword <b>App</b> you create the main element of the application. This element needs a name defined like this "\<name\>". For the "App" element and every other element you need to open "{" and close "}" these brackets.
 2. Inside the "App" element you need to declare the package name of the application by using the "packageName" attribute and defining its value like this "\<packageName\>".
 3. Also inside the "App" element you need to create an "Sensor" element. The "Sensor" element needs a name defined like this "\<name\>" and you need to open and close the typical element brackets "{" "}".
 4. Inside of the "Sensor" element you need to create at least one (you can create as much as you want) "Service" element. An "Service" element needs a name defined like this "\<name\>" and you need to open and close the typical element brackets. 
