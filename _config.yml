@@ -1,2 +1,4 @@
 theme: jekyll-theme-cayman
-logo: /images/icon4.png
+title: BAG
+description: Bluetooth Low Energy App Generator
+show_downloads: "true"
