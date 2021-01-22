@@ -1,6 +1,6 @@
 This project consisting of the <b>Ecore Diagramm Editor</b>, <b>EMF - Eclipse Modeling Framework</b> and <b>Xtext</b> represents a self made domain specific language with an integrated code generator for mobile applications which communicate with bluetooth low energy devices. With the defined domain specifig language inside this project you are able to describe the behaviour and functionality of a bluetooth low energy device. After describing the device the corresponding code for an Android and iOS application will be generated. The generated code implements the necessary bluetooth low energy functionality for the communication between the application and the device. There is also the possibility to define if there should also be an user interface generated or not. 
 
-* TOC {:toc}
+{:toc}
 
 ## IDE Setup
 
