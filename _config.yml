@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: BAG
 description: Bluetooth Low Energy App Generator
+markdown: kramdown
