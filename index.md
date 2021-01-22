@@ -7,6 +7,8 @@ This project consisting of the <b>Ecore Diagramm Editor</b>, <b>EMF - Eclipse Mo
 	- [Option 2: Developer](#option-2-developer)
 - [Usage of the project and its domain specific language](#usage-of-the-project-and-its-domain-specific-language)
 - [Possible adjustments in the generated code](#possible-adjustments-in-the-generated-code)
+	- [iOS](#ios)
+	- [Android](#android)
 
 
 
