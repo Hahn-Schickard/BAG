@@ -9,6 +9,7 @@ This project consisting of the <b>Ecore Diagramm Editor</b>, <b>EMF - Eclipse Mo
 - [Possible adjustments in the generated code](#possible-adjustments-in-the-generated-code)
 	- [iOS](#ios)
 	- [Android](#android)
+- [Example](#example)
 
 
 
@@ -97,3 +98,7 @@ Inside every <b>set</b>-method there is a TODO-statement. At this point you can 
 <b>Helper.java</b>
 
 In every <b>writeCharacteristic</b>-method there is a TODO-statement. At this point you can add your own conversion method or adjust the already existing ones.
+
+## Example
+
+For the example we are using the Bluetooth Low Energy Kit by Cypress.
