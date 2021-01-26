@@ -170,7 +170,7 @@ By clicking on one of the entries the application will start the connection prog
 	<img src="images/9_example.PNG">
 </p>
 
-In this view all the given information and defined ui elements are displayed. Here you can interact with the connected device.
+In this view all the given information and defined ui elements are displayed. Here you can interact with the connected device. On the left there is the read value and button displayed. By clicking the button you send a read command to the device and the response will be displayed in the textfield to the left. The write editfield and button is grayed out because the write option was set to false. On the right there is the textfield which displays the incoming notification value.
 
 That's it! You have an working Android application ready to interact and communicate with your BLE device.
 
