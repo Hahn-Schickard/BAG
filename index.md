@@ -105,10 +105,10 @@ For an example application we are using the [CY8CKIT-042-BLE-A Bluetooth Low Ene
 
 In this example we are using a configuration which has only one defined service and characteristic. The characteristic will send values of one sine wave as float 32 values (HEX coded) via notification. For using the BAG library and it's DSL we need information of the defined characteristic like the uuid and the data type of the incoming data. So we got the following configuration given for our example:
 
-- Service UUID: 0003cbbb-0000-1000-8000-00805f9b0131
-- Characteristic UUID: c0680e1b-18bc-4645-aa8e-62f47d20f637
-- Data Type: Float 32
-- Interaction via: Notification
+- <b>Service UUID:</b> 0003cbbb-0000-1000-8000-00805f9b0131
+- <b>Characteristic UUID:</b> c0680e1b-18bc-4645-aa8e-62f47d20f637
+- <b>Data Type:</b> Float 32
+- <b>Interaction via:</b> Notification
 
 We are starting by using the BAG DSL to define the given information:
 
