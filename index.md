@@ -126,25 +126,25 @@ Now we can create the projects in the corresponding IDE (Android Studio or Xcode
 
 ### Android
 
-1. Create a new project
+- Create a new project
 
 <p align="center">
 	<img src="images/3_example.PNG">
 </p>
 
-2. Select No Activity
+- Select No Activity
 
 <p align="center">
 	<img src="images/4_example.PNG">
 </p>
 
-3. Enter the defined project and package name
+- Enter the defined project and package name
 
 <p align="center">
 	<img src="images/5_example.PNG">
 </p>
 
-4. Replace the AndroidManifest.xml and build.gradle file with the generated one and add all the other files into the correct directory
+- Replace the AndroidManifest.xml and build.gradle file with the generated one and add all the other files into the correct directory
 
 <p align="center">
 	<img src="images/6_example.PNG">
