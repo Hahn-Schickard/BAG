@@ -110,3 +110,5 @@ In this example we are using a configuration which has only one defined service 
 - Data Type: Float 32
 - Interaction via: Notification
 
+We are starting by using the BAG DSL to define the given information:
+
