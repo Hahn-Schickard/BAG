@@ -158,7 +158,19 @@ Now we can create the projects in the corresponding IDE (Android Studio or Xcode
 
 - Connect your mobile device and run the application on it
 
-The application will start with the <b>DeviceScanActivity</b> in this view the application search for nearby BLE devices and lists them in the displayed list. By clicking on one of the entries the application will start the connection progress with the selected device and switches to the <b>DeviceControlActivity</b>. In this view all the given information and defined ui elements are displayed. Here you can interact with the connected device.
+The application will start with the <b>DeviceScanActivity</b> in this view the application search for nearby BLE devices and lists them in the displayed list. 
+
+<p align="center">
+	<img src="images/8_example.PNG">
+</p>
+
+By clicking on one of the entries the application will start the connection progress with the selected device and switches to the <b>DeviceControlActivity</b>. 
+
+<p align="center">
+	<img src="images/9_example.PNG">
+</p>
+
+In this view all the given information and defined ui elements are displayed. Here you can interact with the connected device.
 
 That's it! You have an working Android application ready to interact and communicate with your BLE device.
 
