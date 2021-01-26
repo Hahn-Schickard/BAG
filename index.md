@@ -101,4 +101,4 @@ In every <b>writeCharacteristic</b>-method there is a TODO-statement. At this po
 
 ## Example
 
-For an example application we are using the <b>CY8CKIT-042-BLE-A Bluetooth Low Energy 4.2 Compliant Pioneer Kit</b> by Cypress.
+For an example application we are using the [CY8CKIT-042-BLE-A Bluetooth Low Energy 4.2 Compliant Pioneer Kit](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-042-ble-bluetooth-low-energy-42-compliant-pioneer-kit) by Cypress.
