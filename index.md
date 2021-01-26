@@ -116,4 +116,8 @@ We are starting by using the BAG DSL to define the given information:
 	<img src="images/1_example.PNG">
 </p>
 
-These are all the information needed for the initial generation of the application code. We also decide to generate an ui element for the defined characteristic.
+These are all the information needed for the initial generation of the application code. We also decide to generate an ui element for the defined characteristic. By saving the file the following files will be generated:
+
+<p align="center">
+	<img src="images/2_example.PNG">
+</p>
