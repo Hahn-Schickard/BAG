@@ -155,3 +155,7 @@ Now we can create the projects in the corresponding IDE (Android Studio or Xcode
 <p align="center">
 	<img src="images/7_example.PNG">
 </p>
+
+- Connect your mobile device and run the application on it
+
+The application will start with the <b>DeviceScanActivity</b> in this view the application search for nearby BLE devices and lists them in the displayed list. By clicking on one of the entries the application will start the connection progress with the selected device and switches to the <b>DeviceControlActivity</b>.
