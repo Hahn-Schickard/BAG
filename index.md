@@ -125,3 +125,21 @@ These are all the information needed for the initial generation of the applicati
 Now we can create the projects in the corresponding IDE (Android Studio or Xcode).
 
 ### Android
+
+1. Create a new project
+
+<p align="center">
+	<img src="images/3_example.PNG">
+</p>
+
+2. Select No Activity
+
+<p align="center">
+	<img src="images/4_example.PNG">
+</p>
+
+3. Enter the defined project and package name
+
+<p align="center">
+	<img src="images/5_example.PNG">
+</p>
