@@ -121,3 +121,9 @@ These are all the information needed for the initial generation of the applicati
 <p align="center">
 	<img src="images/2_example.PNG">
 </p>
+
+Now we can create the projects in the corresponding IDE (Android Studio or Xcode).
+
+### Android
+
+Test
