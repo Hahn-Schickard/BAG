@@ -143,3 +143,9 @@ Now we can create the projects in the corresponding IDE (Android Studio or Xcode
 <p align="center">
 	<img src="images/5_example.PNG">
 </p>
+
+4. Replace the AndroidManifest.xml and build.gradle file with the generated one and add all the other files into the correct directory
+
+<p align="center">
+	<img src="images/6_example.PNG">
+</p>
