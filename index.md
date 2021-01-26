@@ -149,3 +149,9 @@ Now we can create the projects in the corresponding IDE (Android Studio or Xcode
 <p align="center">
 	<img src="images/6_example.PNG">
 </p>
+
+- Search for the defined TODO statements and edit the one in the <b>DataStruct</b> class to the following
+
+<p align="center">
+	<img src="images/7_example.PNG">
+</p>
