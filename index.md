@@ -113,5 +113,5 @@ In this example we are using a configuration which has only one defined service 
 We are starting by using the BAG DSL to define the given information:
 
 <p align="center">
-	<img src="images/example1.PNG">
+	<img src="images/1_example.PNG">
 </p>
