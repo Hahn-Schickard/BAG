@@ -101,4 +101,4 @@ In every <b>writeCharacteristic</b>-method there is a TODO-statement. At this po
 
 ## Example
 
-For an example application we are using the [CY8CKIT-042-BLE-A Bluetooth Low Energy 4.2 Compliant Pioneer Kit](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-042-ble-bluetooth-low-energy-42-compliant-pioneer-kit) by Cypress.
+For an example application we are using the [CY8CKIT-042-BLE-A Bluetooth Low Energy 4.2 Compliant Pioneer Kit](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-042-ble-bluetooth-low-energy-42-compliant-pioneer-kit) by Cypress. There are several example configurations available for this kit. With these configurations the kit behaves like a real working BLE device with it's defined functionality. In this example we are using a configuration which has only one defined service and characteristic. The characteristic will send 5 phase-shifted sine waves as float 32 values (HEX coded) via notification.
