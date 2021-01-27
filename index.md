@@ -11,6 +11,7 @@ This project consisting of the <b>Ecore Diagramm Editor</b>, <b>EMF - Eclipse Mo
 	- [Android](#android)
 - [Example](#example)
 
+
 ## IDE Setup
 
 1. Download the current version of the Eclipse Installer <a href="https://www.eclipse.org/downloads/">here</a>
