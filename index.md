@@ -175,3 +175,5 @@ In this view all the given information and defined ui elements are displayed. He
 That's it! You have an working Android application ready to interact and communicate with your BLE device.
 
 ### iOS
+
+- Create a new project
