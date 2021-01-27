@@ -10,8 +10,8 @@ This project consisting of the <b>Ecore Diagramm Editor</b>, <b>EMF - Eclipse Mo
 	- [iOS](#ios)
 	- [Android](#android)
 - [Example](#example)
-	- [Android](#android)
-	- [iOS](#ios)
+	- [Android](#android-example)
+	- [iOS](#ios-example)
 
 
 
