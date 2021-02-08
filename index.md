@@ -176,3 +176,7 @@ That's it! You have an working Android application ready to interact and communi
 ### iOS
 
 - Create a new project
+
+<p align="center">
+	<img src="images/ios_1.png">
+</p>
