@@ -157,13 +157,13 @@ Now we can create the projects in the corresponding IDE (Android Studio or Xcode
 
 - Connect your mobile device and run the application on it
 
-The application will start with the <b>DeviceScanActivity</b> in this view the application search for nearby BLE devices and lists them in the displayed list. 
+The application will start with the <b>DeviceScanActivity</b> in this view the application search for nearby BLE devices and lists them in the displayed list 
 
 <p align="center">
 	<img src="images/8_example.PNG">
 </p>
 
-By clicking on one of the entries the application will start the connection progress with the selected device and switches to the <b>DeviceControlActivity</b>. 
+By clicking on one of the entries the application will start the connection progress with the selected device and switches to the <b>DeviceControlActivity</b> 
 
 <p align="center">
 	<img src="images/9_example.PNG">
@@ -197,4 +197,24 @@ That's it! You have an working Android application ready to interact and communi
 
 <p align="center">
 	<img src="images/ios_4.png">
+</p>
+
+- Reopen the project inside Xcode. The replaced files are now updated inside the IDE. The newly added files like <b>BLEManager.swift</b> are not automatically added inside the IDE. Therefore you need to add them manually via the <b>Finder</b> out of the project folder by drag and drop
+
+<p align="center">
+	<img src="images/ios_5.png">
+</p>
+
+- Now you can search for the defined TODO statements and edit the one in the <b>didUpdateValueFor</b> method inside the <b>BLEManager.swift</b> to the following
+
+<p align="center">
+	<img src="images/ios_6.png">
+</p>
+
+- Connect your mobile device and run the application on it
+
+The application will start with the <b>Devices</b> view. In this view the application search for nearby BLE devices and lists them in the displayed list
+
+<p align="center">
+	<img src="images/ios_7.png">
 </p>
