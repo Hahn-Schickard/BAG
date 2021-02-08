@@ -192,3 +192,9 @@ That's it! You have an working Android application ready to interact and communi
 <p align="center">
 	<img src="images/ios_3.png">
 </p>
+
+- Now copy the generated files from the <b>BAG</b> library to the project folder of the created project
+
+<p align="center">
+	<img src="images/ios_4.png">
+</p>
