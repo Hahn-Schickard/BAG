@@ -218,3 +218,13 @@ The application will start with the <b>Devices</b> view. In this view the applic
 <p align="center">
 	<img src="images/ios_7.png">
 </p>
+
+By clicking on one of the entries the application will start the connection progress with the selected device and switches to the main view 
+
+<p align="center">
+	<img src="images/ios_8.png">
+</p>
+
+This view has exactly the same functionality like the main view of the Android application.
+
+Now you have also an working iOS application ready to interact and communicate with your BLE device.
