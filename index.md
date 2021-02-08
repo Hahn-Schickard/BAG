@@ -180,3 +180,9 @@ That's it! You have an working Android application ready to interact and communi
 <p align="center">
 	<img src="images/ios_1.png">
 </p>
+
+- Select <b>App</b>
+
+<p align="center">
+	<img src="images/ios_2.png">
+</p>
