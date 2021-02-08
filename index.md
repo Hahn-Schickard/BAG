@@ -186,3 +186,9 @@ That's it! You have an working Android application ready to interact and communi
 <p align="center">
 	<img src="images/ios_2.png">
 </p>
+
+- Enter the defined project name and select the shown options
+
+<p align="center">
+	<img src="images/ios_3.png">
+</p>
