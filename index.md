@@ -216,7 +216,7 @@ That's it! You have an working Android application ready to interact and communi
 The application will start with the <b>Devices</b> view. In this view the application search for nearby BLE devices and lists them in the displayed list
 
 <p align="center">
-	<img src="images/ios_7.png">
+	<img src="images/ios_7.png" width="100" height="100">
 </p>
 
 By clicking on one of the entries the application will start the connection progress with the selected device and switches to the main view 
