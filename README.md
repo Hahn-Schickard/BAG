@@ -18,7 +18,7 @@ For using the library you have two options. Option one is for developer who want
 
 ### Option 1: User
 
-1. Download "BAG_user.zip"
+1. Download [BAG_user.zip](/downloads/BAG_user.zip)
 2. Inside the Eclipe IDE select "Help" -> "Install New Software..." -> "Add" -> "Archive" and choose the downloaded zip file
 3. Install the plugin and restart the Eclipse IDE
 4. Create a new general project via "File" -> "New" -> "Project"
@@ -33,7 +33,7 @@ For using the library you have two options. Option one is for developer who want
 	2. "Ecore Diagramm Editor (SDK)"
 	3. "EMF - Eclipse Modeling Framework SDK"
 	4. "Xtext Complete SDK"
-2. Download "BAG_developer.zip" or clone the repository
+2. Download [BAG_developer.zip](BAG_developer.zip) or clone the repository
 3. Inside the Eclipse IDE select "File" -> "Import..." -> "General" -> "Achrive File" and choose the downloaded zip file
 4. After successfully importing the project you can use the "BAG" library
 5. If there are any errors displayed you need to edit some settings
