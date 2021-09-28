@@ -24,7 +24,7 @@ For using the library you have two options. Option one is for developer who want
 
 ### Option 1: User
 
-1. Download <b>BAG_user.zip</b>
+1. Download <a href="https://github.com/Hahn-Schickard/BAG/blob/master/downloads/BAG_user.zip">BAG_user.zip</a>
 2. Inside the Eclipe IDE select <b>Help</b> -> <b>Install New Software...</b> -> <b>Add</b> -> <b>Archive</b> and choose the downloaded zip file
 3. Install the plugin and restart the Eclipse IDE
 4. Create a new general project via <b>File</b> -> <b>New</b> -> <b>Project</b>
